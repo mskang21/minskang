@@ -1,14 +1,30 @@
 #intro-section {
+  margin-top: 400px;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    padding: 300px;
+    padding: 100px;
     padding-bottom: 100px;
     padding-top:20px;
     font-family: 'Ubuntu', sans-serif;
   }
+  .intro-container { 
+      position: relative;
+      text-align: center;
+      color: black;
+  }
+.intro-container img {
+  width: 100%;
+}
+.intro-container p {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
   /* The navigation bar is this code  */
   .top-bar ul {
     list-style-type: none;
@@ -41,13 +57,6 @@
     float: right;
   }
   /* This is the container for the drawing at the top */
-  .drawingContainer {
-    border: 40px;
-  }
-  .drawingContainer img {
-    width:414;
-    height:414;
-  }
   #work-section {
     display: flex;
     flex-direction: column;
