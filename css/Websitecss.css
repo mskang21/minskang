@@ -1,18 +1,22 @@
+html {
+  overflow-y: scroll;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  border: solid;
+  width: 100%; 
+  /* if you want to add some gaps between the edge of the screen, use padding instead */
+  padding-left: 2px;
+}
 #intro-section {
-  margin-top: 400px;
     display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    padding: 100px;
-    padding-bottom: 100px;
-    padding-top:20px;
     font-family: 'Ubuntu', sans-serif;
+    width: 100%;
   }
   .intro-container { 
       position: relative;
-      text-align: center;
+      text-align: left;
       color: black;
   }
 .intro-container img {
@@ -22,7 +26,12 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+.intro-container a {
+  color: red;
 }
 
   /* The navigation bar is this code  */
@@ -52,6 +61,7 @@
     text-align: center;
     text-decoration: none;
     font-size: 1.4rem;
+    color: black;
   }
   .top-bar-right{
     float: right;
@@ -171,10 +181,11 @@
     flex-wrap: nowrap;
   }
   .skillbar {
-    display: flex;
-    border: 2px solid black;
-    width: 100%;
-    justify-content: space-between;
+      border: 2px solid black;
+      display: flex;
+      width: 100%;
+      padding: 9px;
+      justify-content: space-between;
   }
   .skills-Methods {
     margin-top: 70px;
@@ -217,6 +228,8 @@
   .aboutbar {
     border: 2px solid black;
     display: flex;
+    width: 100%;
+    padding: 9px;
     justify-content: space-between;
   }
   .aboutContainer {
@@ -231,7 +244,7 @@
     margin: 0
   }
   main {
-    margin-top:73px;
+    margin-top:65px;
   }
   h1 {
     display: block;
