@@ -93,13 +93,22 @@ body {
   }
   #workCard-wave {
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  #workCard-eachday {
+  #workCard-SNIIP {
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-  #workCard-StyleForgeAI {
+  #workCard-Adler {
     margin-top: 50px;
     margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .workContainer {
     display: flex;
@@ -111,7 +120,7 @@ body {
     display: flex;
     border-bottom: 2px black solid;
     padding: 9px;
-    width: 60%;
+    width: 57%;
     justify-content: space-between;
   }
   /* This is the card for presenting projects */
@@ -125,21 +134,16 @@ body {
     background-color: white;
     height: 450px;
     width: 700px;
-    margin-right: 2px;
-    transition: margin 0.2s ease-in-out; 
   }
-  .workCard :hover {
-    margin: -2;
-
+  #work-Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   #work-Content a {
     text-decoration: none;
     color: black;
   }
-  #work-Content a :hover{
-    border-color: rgb(255, 96, 96);
-  }
-  /* This is the text content of the work card */
   #Wave.workCard-contents {
     width: 254px;
     height: 390px;
@@ -150,8 +154,8 @@ body {
     color: black;
     text-decoration: none;
     align-items: flex-start;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(201, 66, 231, 0.837));
     justify-content: flex-end;
+    background-color: rgba(201, 170, 231, 0.837);
   }
   #SNIIP.workCard-contents {
     width: 254px;
@@ -160,9 +164,8 @@ body {
     flex-direction: column;
     padding: 30px;
     padding-right: 150px;
-    color: black;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(66, 113, 231, 0.837));
     justify-content: flex-end;
+    background-color: rgba(66, 170, 231, 0.837);
   }
   #Adler.workCard-contents {
     width: 254px;
@@ -171,9 +174,8 @@ body {
     flex-direction: column;
     padding: 30px;
     padding-right: 150px;
-    color: black;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(231, 66, 113, 0.837));
     justify-content: flex-end;
+    background-color: rgba(231, 170, 190, 0.837);
   }
   .workCard-duration {
     display: block;
@@ -185,12 +187,27 @@ body {
   .workCard-role {
     font-family: 'Ubuntu', sans-serif;
   }
-  
   .workCard-title{
     display: block;
     align-items: center;
     margin-bottom:10px;
     margin-top: 10px;
+    font-size: x-large;
+  }
+  .fullwrap {
+    position: relative;
+  }
+  #workCard-wave .fullwrap:hover .description {
+  visibility: visible; opacity: 1;
+  background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(201, 66, 231, 0.837));
+  }
+  #workCard-SNIIP .fullwrap:hover .description {
+    visibility: visible; opacity: 1;
+    background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(66, 66, 231, 0.837));
+  }
+  #workCard-Adler .fullwrap:hover .description {
+    visibility: visible; opacity: 1;
+    background-image: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(231, 66, 113, 0.837));
   }
   .workCard-image{
     display: flex;
@@ -200,8 +217,25 @@ body {
   }
   .workCard-image img{
     height: 450px;
-    width: 450.8px;
+    width: 450px;
+    /* transition: 0.3s; */
   }
+  .description {
+    position: absolute; top: 0; left: 0;
+    padding: 10%;
+    width: 360px; height: 360px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex; justify-content: center; align-items: center;
+    visibility: none; opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .description p {
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+  }
+  /* .workCard-image :hover{
+    opacity: 50%;
+  } */
   #skills-section {
     display: flex;
     width: 100%;
@@ -213,7 +247,7 @@ body {
   .skillbar {
       border-bottom: 2px solid black;
       display: flex;
-      width: 60%;
+      width: 57%;
       padding: 9px;
       justify-content: space-between;
   }
@@ -259,7 +293,7 @@ body {
   .aboutbar {
     border-bottom: 2px solid black;
     display: flex;
-    width: 60%;
+    width: 57%;
     padding: 9px;
     justify-content: space-between;
     align-items: center;
