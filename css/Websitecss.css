@@ -117,7 +117,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
   }
   /* This is the bar that indicates the beginning of work section */
-  .workBar {
+  #workBar {
     display: flex;
     border-bottom: 2px black solid;
     padding: 9px;
@@ -297,23 +297,23 @@ body {
     align-items: center;
     flex-wrap: nowrap;
   }
-  .skillbar {
+  #skillbar {
       border-bottom: 2px solid black;
       display: flex;
       width: 60%;
       padding: 9px;
       justify-content: space-between;
   }
-  .skills-Methods {
+  #skills-Methods {
     margin-top: 70px;
     margin-bottom: 70px;
     display: flex;
   }
-  .skills-Tools {
+  #skills-Tools {
     display: flex;
     margin-bottom: 70px;
   }
-  .skills-Technical {
+  #skills-Technical {
     display: flex;
     margin-bottom: 70px;
   }
@@ -344,7 +344,7 @@ body {
     margin-bottom: 500px;
     align-items: center;
   }
-  .projectBar {
+  #projectBar {
     border-bottom: 2px solid black;
     display: flex;
     width: 60%;
@@ -357,7 +357,9 @@ body {
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
   }
-  
+  .fade {
+    opacity: 1;
+  }
   body {
     margin: 0
   }

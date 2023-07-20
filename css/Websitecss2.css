@@ -173,17 +173,24 @@
     margin-top: 50px;
     width: 1000px;
   }
+  .project-image2 img {
+    width: 740px;
+    height: auto;
+  }
   .tags {
     display: flex;
   }
-  .tags h2 {
+  .tags p {
+    font-family: ubuntu, sans-serif;
+    ;
     padding: 5px;
-    border: 2px solid black;
+    border: 1px solid black;
     text-align: center;
     margin: 20px;
     margin-top: 30px;
   }
   .summary p {
+    font-family: ubuntu, sans-serif;
     text-align: left;
     margin-top: 50px;
     margin-left: 17%;
@@ -199,18 +206,24 @@
   .method-tags {
     display: flex;
   }
-  .method-tags h2 {
+  .method-tags p {
     padding: 5px;
-    border: 2px solid black;
+    border: 1px solid black;
     margin: 10px;
+    font-family: ubuntu, sans-serif;
   }
   .tools {
     display: flex;
     flex-direction: column;
     align-items: center;
   } 
-  .tool-tags {
+  .tool-tags p {
     display: flex;
+    padding: 5px;
+    border: 1px solid black;
+    margin: 10px;
+    font-family: ubuntu, sans-serif;
+    align-content: center;
   }
   .tool-tags h2 {
     padding: 5px;

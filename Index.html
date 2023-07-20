@@ -11,8 +11,8 @@
     <!-- <link rel="stylesheet" href="Websitecss2.css"> -->
   </head>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script type="text/javascript" src="/js/scroll.js">
-  </script>
+  <script type="text/javascript" src="/js/scroll.js"></script>
+  <script type="text/javascript" src="/js/fade.js"></script>
   <body>
     <header>
       <nav class = 'top-bar'>
@@ -40,14 +40,14 @@
           </p>
       </section>
       <section id = 'work-section'>
-        <div class = "workBar">
+        <div id = "workBar" class="fade">
           <h1>Works</h1>
           <div class="workContainer">
               <p>internships/ideations/innovations</p>
           </div>
         </div>
         <div id = "work-Content">
-          <div id="workCard-wave">
+          <div id="workCard-wave" class="fade">
             <a href="wave.html" class="link">
               <div id="First" class="workCard">
                 <div id = "Wave" class="workCard-contents">
@@ -65,7 +65,7 @@
               </div>
             </a>
           </div>
-          <div id="workCard-SNIIP">
+          <div id="workCard-SNIIP" class="fade">
             <a href="SNIIP.html" class="link">
               <div id="Second" class="workCard">
                 <div id = "SNIIP" class="workCard-contents">
@@ -83,7 +83,7 @@
               </div>
             </a>
           </div>
-          <div id="workCard-Adler">
+          <div id="workCard-Adler" class="fade">
             <a href="styleForge.html" class="link">
               <div id= "Third" class="workCard">
                 <div id="Adler" class="workCard-contents">
@@ -104,13 +104,13 @@
         </div>
       </section>
       <section id = 'skills-section'>
-        <div class="skillbar">
+        <div id="skillbar">
           <h1>Skills</h1>
           <div class="skillContainer">
             <p>in order of proficiency, and relevance</p>
           </div>
         </div>
-        <div class="skills-Methods">
+        <div id="skills-Methods" class="fade">
           <div class="skills-label">
             <h1>Methods</h1>
           </div>
@@ -131,7 +131,7 @@
             <p>ER Modeling</p>
           </div>
         </div>
-        <div class="skills-Tools">
+        <div id="skills-Tools" class="fade">
           <div class="skills-label">
             <h1>Tools</h1>
           </div>
@@ -154,7 +154,7 @@
             <p>Google Suite</p>
           </div>
         </div>
-        <div class="skills-Technical">
+        <div id="skills-Technical" class="fade">
           <div class="skills-label">
             <h1>Technical</h1>
           </div>
@@ -167,12 +167,13 @@
         </div>
       </section>
       <section id = 'project-section'>
-        <div class="projectBar"><h1>projects</h1>
+        <div id="projectBar" class="fade">
+          <h1>Projects</h1>
           <div class="projectContainer">
             <p>Creative coding, Programming projects, and fun games :)</p>
           </div>
         </div>
-        <div class="projects">
+        <div id="projects" class="fade">
           <div class="card">
             <img src="" alt="">
             <p>fwefpjwefpjowef</p>
@@ -186,7 +187,6 @@
              <p>fwefpjwefpjowef</p>
           </div>
         </div>
-        
       </section>
     <main>
   </body>
