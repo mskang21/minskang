@@ -228,3 +228,37 @@
     margin: 10px;
     font-family: ubuntu, sans-serif;
   }
+  #body-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+  }
+  #body-section p {
+    font-family: ubuntu, sans-serif;
+  }
+  #body-section h1 {
+    font-family: Noto Serif;
+  }
+  .Research img{
+    width: 60%;
+  }
+  .TopQuestions img{
+    width: 60%;
+  }
+  .insights img {
+    width: 60%;
+  }
+  .HowCanWe img {
+    width: 60%;
+  }
+  .IDEATION img {
+    width: 60%;
+  }
+  .Wireframing img {
+    width: 60%;
+  }
+  .DesignSystem img {
+    width: 60%;
+  }
+  
