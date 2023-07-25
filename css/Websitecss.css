@@ -30,6 +30,7 @@ body {
 }
 #intro-section {
     display: flex;
+    font-size: x-large;
     font-family: 'Ubuntu', sans-serif;
     width: 100%;
   }
@@ -45,7 +46,7 @@ body {
   position: absolute;
   display: flex;
   flex-direction: column;
-  top: 40%;
+  top: 30%;
   left: 40%;
   transform: translate(-50%, -50%);
 }
@@ -58,19 +59,24 @@ body {
     list-style-type: none;
     position: fixed;
     z-index: 1;
-    border-bottom: 2px solid black;
-
+    display: flex;
+    border-bottom: 1px solid black;
     padding-top:10px;
     padding-bottom:10px;
     padding-left: 0;
     margin: 0%;
     min-width: 100%;
-    transform: translateX(-5px)
+    transform: translateX(-5px);
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
   }
   .top-bar li {
+    font-family: Noto serif;
       float: left;
       font-weight: bold;
-      font-size: x-large;
+      font-size: large;
+      padding-left: 40px;
   }
   .top-bar a {
     display: block;
@@ -78,11 +84,16 @@ body {
     background-color: none;
     text-align: center;
     text-decoration: none;
-    font-size: 1.4rem;
     color: black;
+    padding-left: 15px;
+    padding-right: 15px;
   }
   .top-bar-right{
     float: right;
+    padding-right: 40px;
+  }
+  .myName a {
+    font-size: x-large;
   }
   /* This is the container for the drawing at the top */
   #work-section {
@@ -119,10 +130,15 @@ body {
   /* This is the bar that indicates the beginning of work section */
   #workBar {
     display: flex;
-    border-bottom: 2px black solid;
+    border-bottom: 1px black solid;
     padding: 9px;
+    padding-bottom: 0px;
     width: 60%;
     justify-content: space-between;
+  }
+  #workBar h1 {
+    font-family: noto serif;
+    font-size: x-large;
   }
   /* This is the card for presenting projects */
   .workCard {
@@ -176,6 +192,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 30px;
   }
   #work-Content a {
     text-decoration: none;
@@ -242,6 +259,7 @@ body {
     margin-bottom:10px;
     margin-top: 10px;
     font-size: x-large;
+    font-family: noto serif;
   }
   .fullwrap {
     position: relative;
@@ -298,11 +316,14 @@ body {
     flex-wrap: nowrap;
   }
   #skillbar {
-      border-bottom: 2px solid black;
+      border-bottom: 1px solid black;
       display: flex;
       width: 60%;
       padding: 9px;
       justify-content: space-between;
+  }
+  #skillbar {
+    font-family: noto serif;
   }
   #skills-Methods {
     margin-top: 70px;
@@ -345,12 +366,15 @@ body {
     align-items: center;
   }
   #projectBar {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid black;
     display: flex;
     width: 60%;
     padding: 9px;
     justify-content: space-between;
     align-items: center;
+  }
+  #projectBar h1{
+    font-family: noto serif;
   }
   .projectContainer {
     display: flex;
