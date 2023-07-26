@@ -583,3 +583,35 @@ body {
 .DesignSystem img {
   width: 60%;
 }
+.Onboarding {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Onboarding img {
+  width: 50%;
+}
+.Connect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Connect img {
+  width: 50%;
+}
+.FollowUp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.FollowUp img {
+  width: 50%;
+}
+.LaunchProject {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.LaunchProject img{
+  width: 50%;
+}
