@@ -180,14 +180,15 @@
   .tags {
     display: flex;
   }
-  .tags p {
+  .tags h4 {
     font-family: ubuntu, sans-serif;
-    ;
+    font-weight: 400;
     padding: 5px;
     border: 2px solid black;
     text-align: center;
     margin: 20px;
     margin-top: 30px;
+
   }
   .summary p {
     font-family: ubuntu, sans-serif;
@@ -206,11 +207,12 @@
   .method-tags {
     display: flex;
   }
-  .method-tags p {
+  .method-tags h4 {
     padding: 5px;
     border: 2px solid black;
     margin: 10px;
     font-family: ubuntu, sans-serif;
+    font-weight: 400;
   }
   .tools {
     display: flex;
@@ -221,12 +223,13 @@
     display: flex;
     align-items: center;
   } 
-  .tool-tags p {
+  .tool-tags h4 {
     display: flex;
     padding: 5px;
     border: 2px solid black;
     margin: 10px;
     font-family: ubuntu, sans-serif;
+    font-weight: 400;
   }
   #body-section {
     display: flex;

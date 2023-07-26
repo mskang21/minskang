@@ -23,7 +23,6 @@ html {
 }
 body {
   margin: 0;
-  border: solid;
   width: 100%; 
   /* if you want to add some gaps between the edge of the screen, use padding instead */
   padding-left: 2px;
@@ -74,7 +73,7 @@ body {
   .top-bar li {
     font-family: Noto serif;
       float: left;
-      font-weight: bold;
+      font-weight: 400;
       font-size: large;
       padding-left: 40px;
   }
@@ -93,7 +92,8 @@ body {
     padding-right: 40px;
   }
   .myName a {
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight: 400;
   }
   /* This is the container for the drawing at the top */
   #work-section {
@@ -343,7 +343,7 @@ body {
     align-items: center;
     margin-right: 10px;
   }
-  .row p {
+  .row h4 {
     text-align: center;
     border: 2px solid black;
     padding: 5px;
@@ -351,6 +351,7 @@ body {
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
     background-color: rgb(209, 209, 209);
+    font-weight: 400;
   }
   .skillContainer {
     display: flex;
@@ -384,29 +385,176 @@ body {
   .fade {
     opacity: 1;
   }
-  body {
-    margin: 0
-  }
-  main {
-    margin-top:65px;
+  h1 ,h2 {
+    display: block;
+    padding: 0.25em 0em 0em 0em;
+    font-weight: 400;
+    align-content: center;
+    font-family: noto serif;
   }
   h1 {
-    display: block;
-    font-size: 1.4rem;
-    align-content: center;
+    font-size: 38px;
   }
   h2 {
-    display: block;
-    font-size: 1rem;
-    align-content: center;
+    font-size: 26px;
+    margin: none;
   }
   h3 {
-    display: block;
-    font-size: 0.95rem;
-    align-content: center;
+    font-size: 18px;
   }
   h4 {
-    display: block;
-    font-size: 0.95rem;
-    align-content: center;
+    font-size: 16px;
   }
+  h3, h4, td, th {
+    display: block;
+    line-height: 150%;
+    align-content: center;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+  }
+#intro-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-image img {
+  margin-top: 50px;
+  width: 1000px;
+}
+.project-image2 img {
+  width: 740px;
+  height: auto;
+}
+.tags {
+  display: flex;
+}
+.tags h4 {
+  font-family: ubuntu, sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  border: 2px solid black;
+  text-align: center;
+  margin: 20px;
+  margin-top: 30px;
+
+}
+.summary h4 {
+  font-family: ubuntu, sans-serif;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 17%;
+  padding-left: 15px;
+  padding-right: 17%;
+  border-left: 3px solid purple;
+}
+.methods {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.method-tags {
+  display: flex;
+}
+.method-tags h4 {
+  padding: 5px;
+  border: 2px solid black;
+  margin: 10px;
+  font-family: ubuntu, sans-serif;
+  font-weight: 400;
+}
+.tools {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.tool-tags {
+  display: flex;
+  align-items: center;
+} 
+.tool-tags h4 {
+  display: flex;
+  padding: 5px;
+  border: 2px solid black;
+  margin: 10px;
+  font-family: ubuntu, sans-serif;
+  font-weight: 400;
+}
+#body-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#body-section h4 {
+  font-family: ubuntu, sans-serif;
+  margin-top: 50px;
+  /* margin-left: 17%; */
+  padding-left: 15px;
+  /* padding-right: 17%; */
+  border-left: 3px solid purple;
+}
+#body-section h2 {
+  align-self: flex-start;
+}
+.Body-Contents {
+  width: 70%;
+}
+.ProjectGoal {
+  margin-top: 80px;
+}
+.FinalSolution {
+  margin-top: 80px;
+}
+.Research {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+.Research img{
+  width: 100%;
+}
+.TopQuestions {
+  margin-top: 80px;
+}
+.TopQuestions img{
+  width: 100%;
+}
+.insights {
+  margin-top: 80px;
+}
+.insights img {
+  width: 100%;
+}
+.HowCanWe {
+  margin-top: 80px;
+}
+.HowCanWe img {
+  width: 100%;
+}
+.IDEATION {
+  margin-top: 80px;
+}
+.IDEAITON h4 h2 h2 {
+  display: flex; 
+}
+.IDEATION img {
+  width: 100%;
+} 
+.Synthesizing {
+  margin-top: 80px;
+}
+.Synthesizing img {
+  width: 100%
+}
+.Wireframing {
+  margin-top: 80px;
+}
+.Wireframing img {
+  width: 100%;
+}
+.DesignSystem {
+  margin-top: 80px;
+}
+.DesignSystem img {
+  width: 60%;
+}
