@@ -29,8 +29,6 @@ body {
 }
 #intro-section {
     display: flex;
-    font-size: x-large;
-    font-family: 'Ubuntu', sans-serif;
     width: 100%;
   }
   .intro-container { 
@@ -41,10 +39,12 @@ body {
 .intro-container img {
   width: 100%;
 }
-.intro-container p {
+.intro-container h2 {
   position: absolute;
   display: flex;
   flex-direction: column;
+  font-size: x-large;
+  font-family: 'Ubuntu', sans-serif;
   top: 30%;
   left: 40%;
   transform: translate(-50%, -50%);
@@ -92,7 +92,7 @@ body {
     padding-right: 40px;
   }
   .myName a {
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: 400;
   }
   /* This is the container for the drawing at the top */
@@ -136,9 +136,8 @@ body {
     width: 60%;
     justify-content: space-between;
   }
-  #workBar h1 {
+  #workBar h2 {
     font-family: noto serif;
-    font-size: x-large;
   }
   /* This is the card for presenting projects */
   .workCard {
@@ -322,7 +321,7 @@ body {
       padding: 9px;
       justify-content: space-between;
   }
-  #skillbar {
+  #skillbar h2 {
     font-family: noto serif;
   }
   #skills-Methods {
@@ -374,7 +373,7 @@ body {
     justify-content: space-between;
     align-items: center;
   }
-  #projectBar h1{
+  #projectBar h2{
     font-family: noto serif;
   }
   .projectContainer {
@@ -412,23 +411,23 @@ body {
     font-weight: 400;
     font-family: 'Ubuntu', sans-serif;
   }
+  table, th, td {
+    border:1px solid black;
+  }
 #intro-project {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .project-image img {
-  margin-top: 50px;
-  width: 1000px;
+  margin-top: 160px;
+  width: 1200px;
 }
-.project-image2 img {
-  width: 740px;
-  height: auto;
-}
-.tags {
+#tags {
   display: flex;
+  margin-top: 40px;
 }
-.tags h4 {
+#tags h4 {
   font-family: ubuntu, sans-serif;
   font-weight: 400;
   padding: 5px;
@@ -438,16 +437,17 @@ body {
   margin-top: 30px;
 
 }
-.summary h4 {
+#summary h4 {
   font-family: ubuntu, sans-serif;
   text-align: left;
-  margin-top: 50px;
+  margin-top: 40px;
   margin-left: 17%;
   padding-left: 15px;
   padding-right: 17%;
-  border-left: 3px solid purple;
+  border-left: 3px solid rgb(188, 21, 188);
 }
-.methods {
+#methods {
+  margin-top: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -462,7 +462,7 @@ body {
   font-family: ubuntu, sans-serif;
   font-weight: 400;
 }
-.tools {
+#tools {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -490,19 +490,25 @@ body {
   /* margin-left: 17%; */
   padding-left: 15px;
   /* padding-right: 17%; */
-  border-left: 3px solid purple;
+  border-left: 3px solid rgb(188, 21, 188);
 }
 #body-section h2 {
   align-self: flex-start;
+  text-decoration: underline rgb(188, 21, 188) 3px;
+}
+#body-section img {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .Body-Contents {
-  width: 70%;
-}
-.ProjectGoal {
-  margin-top: 80px;
+  width: 60%;
 }
 .FinalSolution {
   margin-top: 80px;
+}
+.FinalSolution img {
+  width: 100%;
+  margin-top: 50px;
 }
 .Research {
     display: flex;
@@ -510,8 +516,13 @@ body {
     align-items: center;
     margin-top: 80px;
 }
-.Research img{
-  width: 100%;
+.diagramming {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.diagramming img{
+  width: 50%;
 }
 .TopQuestions {
   margin-top: 80px;
@@ -519,11 +530,17 @@ body {
 .TopQuestions img{
   width: 100%;
 }
+.ProblemNarrow {
+  margin-top: 80px;
+}
+.ProblemNarrow img {
+  width: 100%
+}
 .insights {
   margin-top: 80px;
 }
 .insights img {
-  width: 100%;
+  width: 80%;
 }
 .HowCanWe {
   margin-top: 80px;
@@ -547,13 +564,21 @@ body {
   width: 100%
 }
 .Wireframing {
+  display: flex;
+  justify-content: center;
   margin-top: 80px;
+  text-decoration: underline rgb(188, 21, 188) 3px;
 }
-.Wireframing img {
+.prototypes img {
   width: 100%;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .DesignSystem {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .DesignSystem img {
   width: 60%;
