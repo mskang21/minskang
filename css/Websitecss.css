@@ -414,6 +414,11 @@ body {
   table, th, td {
     border:1px solid black;
   }
+
+
+/* Style tags for all pages */
+
+
 #intro-project {
   display: flex;
   flex-direction: column;
@@ -440,7 +445,6 @@ body {
   display: flex;
   margin-top: 40px;
   width: 60%;
-
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -505,10 +509,11 @@ body {
 #body-section h4 {
   font-family: ubuntu, sans-serif;
   margin-top: 50px;
-  /* margin-left: 17%; */
   padding-left: 15px;
-  /* padding-right: 17%; */
   border-left: 3px solid rgb(188, 21, 188);
+}
+#body-section h3 {
+  align-self: flex-start;
 }
 #body-section h2 {
   align-self: flex-start;
@@ -520,22 +525,6 @@ body {
 }
 .Body-Contents {
   width: 60%;
-}
-.FinalSolution {
-  margin-top: 80px;
-}
-.FinalSolution img {
-  width: 100%;
-  margin-top: 50px;
-}
-.FinalSolution video {
-  padding-left: 40px;
-}
-.Research {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 80px;
 }
 .diagramming, .diagramming2 {
   display: flex;
@@ -550,32 +539,75 @@ body {
   width: 60%;
   padding-right: 40px;
 }
+.Spread {
+  width: 100%;
+  margin-top: 80px;
+}
+
+/* Style tags for Wave */
+
+.FinalSolution {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: rgb(247, 247, 247); */
+}
+.FinalSolution img {
+  width: 100%;
+  margin-top: 50px;
+}
+.FinalSolution video {
+  padding-left: 40px;
+}
+.Research {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin-top: 80px;
+}
 .TopQuestions {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .TopQuestions img{
   width: 100%;
 }
 .ProblemNarrow {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .ProblemNarrow img {
   width: 100%
 }
 .insights {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .insights img {
   width: 80%;
 }
 .HowCanWe {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .HowCanWe img {
   width: 100%;
 }
 .IDEATION {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .IDEAITON h4 h2 h2 {
   display: flex; 
@@ -585,20 +617,20 @@ body {
 } 
 .Synthesizing {
   margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Synthesizing img {
   width: 100%
 }
 .Wireframing {
   display: flex;
-  justify-content: center;
-  margin-top: 80px;
-  text-decoration: underline rgb(188, 21, 188) 3px;
+  flex-direction: column;
+  align-items: center;
 }
-.prototypes img {
+.Wireframing img {
   width: 100%;
-  margin-top: 80px;
-  margin-bottom: 80px;
 }
 .DesignSystem {
   margin-top: 80px;
@@ -615,12 +647,17 @@ body {
   align-items: flex-start;
 }
 .Column h2 {
-  text-decoration: wavy;
+  text-decoration: none;
+}
+.BreakDown {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .Onboarding {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
 }
 .Onboarding img {
   width: 60%;
@@ -629,7 +666,7 @@ body {
 .Connect {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
 }
 .Connect img {
   padding-left: 40px;
@@ -638,7 +675,7 @@ body {
 .FollowUp {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
 }
 .FollowUp img {
   width: 60%;
@@ -647,9 +684,20 @@ body {
 .LaunchProject {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
 }
 .LaunchProject img{
   width: 60%;
   padding-left: 40px;
+}
+
+
+/* Style tags for SNIIP */
+#Surveys {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#Surveys img {
+  width:50%
 }
