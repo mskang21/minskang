@@ -43,8 +43,8 @@ body {
   position: absolute;
   display: flex;
   flex-direction: column;
-  font-size: x-large;
-  font-family: 'Ubuntu', sans-serif;
+  font-size: large;
+  font-family: noto serif;
   top: 30%;
   left: 40%;
   transform: translate(-50%, -50%);
@@ -435,15 +435,25 @@ body {
   text-align: center;
   margin: 20px;
   margin-top: 30px;
+}
+#summary {
+  display: flex;
+  margin-top: 40px;
+  width: 60%;
 
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#summary img {
+  width: 25%;
+  height: 25%;
+  padding-right:20px;
 }
 #summary h4 {
   font-family: ubuntu, sans-serif;
   text-align: left;
-  margin-top: 40px;
-  margin-left: 17%;
   padding-left: 15px;
-  padding-right: 17%;
   border-left: 3px solid rgb(188, 21, 188);
 }
 #methods {
@@ -518,19 +528,27 @@ body {
   width: 100%;
   margin-top: 50px;
 }
+.FinalSolution video {
+  padding-left: 40px;
+}
 .Research {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
 }
-.diagramming {
+.diagramming, .diagramming2 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
-.diagramming img{
+.diagramming img {
   width: 50%;
+}
+.diagramming2 img {
+  width: 60%;
+  padding-right: 40px;
 }
 .TopQuestions {
   margin-top: 80px;
@@ -591,35 +609,47 @@ body {
 .DesignSystem img {
   width: 60%;
 }
+.Column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.Column h2 {
+  text-decoration: wavy;
+}
 .Onboarding {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 .Onboarding img {
-  width: 50%;
+  width: 60%;
+  padding-left: 40px;
 }
 .Connect {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 .Connect img {
-  width: 50%;
+  padding-left: 40px;
+  width: 60%;
 }
 .FollowUp {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 .FollowUp img {
-  width: 50%;
+  width: 60%;
+  padding-left: 40px;
 }
 .LaunchProject {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
 }
 .LaunchProject img{
-  width: 50%;
+  width: 60%;
+  padding-left: 40px;
 }
