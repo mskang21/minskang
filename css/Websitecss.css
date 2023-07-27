@@ -349,7 +349,7 @@ body {
     margin: 10px;
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
-    background-color: rgb(209, 209, 209);
+    background-color: rgb(230, 230, 230);
     font-weight: 400;
   }
   .skillContainer {
@@ -437,6 +437,7 @@ body {
   font-weight: 400;
   padding: 5px;
   border: 2px solid black;
+  background-color: rgb(230, 230, 230);
   text-align: center;
   margin: 20px;
   margin-top: 30px;
@@ -476,6 +477,7 @@ body {
 .method-tags h4 {
   padding: 5px;
   border: 2px solid black;
+  background-color: rgb(230, 230, 230);
   margin: 10px;
   font-family: ubuntu, sans-serif;
   font-weight: 400;
@@ -497,6 +499,7 @@ body {
   display: flex;
   padding: 5px;
   border: 2px solid black;
+  background-color: rgb(230,230,230);
   margin: 10px;
   font-family: ubuntu, sans-serif;
   font-weight: 400;
