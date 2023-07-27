@@ -451,9 +451,13 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 .method-tags {
   display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: center;
 }
 .method-tags h4 {
   padding: 5px;
@@ -466,10 +470,14 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 .tool-tags {
   display: flex;
+  flex-wrap: wrap;
+  width: 50%;
   align-items: center;
+  justify-content: center;
 } 
 .tool-tags h4 {
   display: flex;

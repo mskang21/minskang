@@ -2,19 +2,22 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>styleForgeAI</title>
+        <title>SNIIP</title>
         <link rel="stylesheet" href="/css/Websitecss.css">
-        <link rel="stylesheet" href="/css/Websitecss2.css">
+        <!-- <link rel="stylesheet" href="/css/Websitecss2.css"> -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/scroll.js"></script>
+    <script type="text/javascript" src="/js/fade.js"></script>
     <body>
         <header>
             <nav class = 'top-bar'>
               <ul>
-                <li class = 'myName'><a href="index.html">Minsung</a></li>
+                <li class = 'myName'><a href="index.html">Minsung Kang</a></li>
                 <div class="top-bar-right">
                   <li><a href="index.html#work-section">works</a></li>
                   <li><a href="index.html#skills-section">skills</a></li>
@@ -27,44 +30,257 @@
         <main>
             <section id="intro-project">
                 <div class="project-image">
-                    <img src="/Images/wave/IntroBar.png" alt="">
+                    <img class="fade" src="/Images/SNIIP/IntroBar.png" alt="IntroBar">
                 </div>
-                <div class="tags">
-                    <h2>Duration: Fall 2021 ~ Spring 2022</h2>
-                    <h2>Collaborator: Chelsea Tang, Avani Guduri, Spoorthi Cherivirala</h2>
+                <div id="tags" class="fade">
+                    <h4><strong>DURATION:</strong> Spring 2023 ~ Summer 2023</h4>
+                    <h4><strong>COLLABORATORS:</strong> Gaby Ruiz, Vicky Wang</h4>
                 </div>
-                <div class="summary">
-                    <p>In the Fall of 2021, I begun a design project in an organization called Design For America in cooperation with national YMCA(Youg Men's Christian Association).
-                        We entered a CMU Design Fair at the end of the academic year hosted by DFA to present out project and won the best design award out of 10 teams by giving a short 5 min breif elevator pitch.
-                        In this project, I took the role of a UX researcher to build a mobile app that faciliatates professional career building foundations for youths in high school and their peers. 
-                        This project aimed to foster the youth participatoin within the community by maximizing their impacts in local organizatios with the help of mentors from the platform. 
-                    </p>
+                <div id="summary" class="fade">
+                    <h4>In the summer of 2023, I created a mobile platform for a Entertainment StartUp SNIIP. The product intended to allow readers to have a more pleasant manga reading experience 
+                        compared to other competitors in the manga industry. This was a renewed design from a previous desktop platform so that readers could have more accessiblity to our service on their phone.
+                        Before launching the product, the company was able to raise $___ before launching the product. The goal of designing the platform was to allow readers in western countries to have more access to 
+                        different types of mangas that are yet to be exported due to limited streaming or entertainment services and complex legality reasons.  
+                    </h4>
                 </div>
-                <div class="methods">
+                <div id="methods" class="fade">
                     <div class="method-Label">
-                        <h1>Methods</h1>
+                        <h2>Methods</h2>
                     </div>
                     <div class="method-tags">
-                        <h2>User Research</h2>
-                        <h2>User Testing</h2>
-                        <h2>Wireframing</h2>
-                        <h2>Prototyping</h2>
-                        <h2>Storyboarding</h2>
+                        <h4>User Research</h4>
+                        <h4>User Testing</h4>
+                        <h4>Wireframing</h4>
+                        <h4>Prototyping</h4>
+                        <h4>Semi-structured Interviews</h4>
+                        <h4>Affinity Diagramming</h4>
+                        <h4>Persona Crafting</h4>
+                        <h4>Value Opportunity Analysis</h4>
+                        <h4>Information Architecture</h4>
                     </div>
                 </div>
-                <div class="tools">
+                <div id="tools" class="fade">
                     <div class="tool-Label">
-                        <h1>Tools</h1>
+                        <h2>Tools</h2>
                     </div>
                     <div class="tool-tags">
-                        <h2>Figma</h2>
-                        <h2>Slack</h2>
-                        <h2>Google Workspace</h2>
+                        <h4>Figma</h4>
+                        <h4>Slack</h4>
+                        <h4>Discord</h4>
+                        <h4>Google Workspace</h4>
+                        <h4>Kickstarter</h4>
                     </div>
                 </div>
                 <div id="intro-paragraph">
                     <div class="logo"></div>
                     <div class="writing"></div>
+                </div>
+            </section>
+            <section id="body-section">
+                <div class="Body-Contents">
+                    <div class="FinalSolution">
+                        <h2>Final Solution</h2>
+                        <h4 class="fade">
+                            A mobile and desktop manga viewing platform with personalized selections of mangas in customizable lists and libraries.
+                            The product makes mangas accessible to readers over the world by implementing a stable platform with faster updates of translated versions to provide a larger audience to authors and a pleasant reading experience for users. 
+                        </h4>
+                        <video width="320" height="240" autoplay>
+                            <source src="/videos/SNIIP/Screen Recording 2023-07-24 at 7.00.59 PM.mov">
+                          </video>
+                    </div>
+                    <div class="Research">
+                        <h2>Research</h2>
+                        <div class="diagramming">
+                        <img class="fade" src="/Images/wave/BackgroundResearch.png" alt="BackgroundResearch">
+                        <table class="fade">
+                            <tr>
+                              <th>Primary Research Interviews</th>
+                            </tr>
+                            <tr>
+                              <td>
+                                - Local YMCA staff <br>
+                                - Directors of Youth Programming <br> 
+                                - Youth involved with change-making <br>
+                                - National YMCA coordinators <br>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <h4 class="fade">To better understand the needs of target users (middle and high school students) and the current situation regarding successful youth activities, I conducted interviews with 6 YMCA Directors of Youth Programming across main US branches. <br>
+                            <br>
+                            The purpose of this research process aimed to investigate reasons why certain YMCA branches attract more youth participants.
+                            The insights of the investigation were then used to develop a more accessible platform for youth to engage in to gain audience and partners for their independent projects. 
+                            In such an effort, I conducted multiple interviews with various YMCA branches including high schools as well as those that run independently focused on helping kids at risk and kids with genuine interests. 
+                        </h4>
+                    </div>
+                    <div class="TopQuestions">
+                        <h2>Top Questions</h2>
+                        <h4 class="fade">The questions that we were longing to ask to the interviewees of YMCA branches were regarding the retnetion rate of the programs (how much youth programs intend to attract and maintain);
+                            aspects of types of programs that attract the most students; and the motivation of the youth participating in these programs. Before going onto interviewing stage, we have decided to
+                            prepare scirpts with following questions below for every interviewee we meet to gain a general overview of the situations at branches across the states. <br>
+                        </h4>
+                            <h3>
+                            1. What are the main reasons <strong>students leave or discontinue programs?</strong>
+                            </h3>
+                            <h3>
+                            2. How large is the <strong>percentage of students leaving the programs</strong> in the middle of the process?
+                            </h3>
+                            <h3>
+                            3. How do youth feel about <strong>YMCA's recruitment process</strong> for new members 
+                            </h3>
+                            <h3>
+                            4. What <strong>activities</strong> do students tend to gravitate towards?
+                            </h3>
+                            <h3>
+                            5. What are the <strong>motivations or goals students have</strong> when participating in the programs? 
+                            </h3>
+                            <h3>
+                            6. What <strong>existing changemakers programs</strong> are there?
+                            </h3> 
+                    </div>
+                    <div class="insights">
+                        <h2>Insights from Interviews</h2>
+                        <h4 class="fade">After rounds of interviews where my team asked questions above with following up questions that varied in each interview process, we were able to discover main insights about the underlying problems and painpoints of youth
+                            participating in YMCa programs </h4>
+                            <h3 class="fade">
+                                1. <strong>Working with peers on topics of their interest</strong> tends to make youth <strong>more engaged and successful</strong>. Yet, such opportunities <strong>are not accessible</strong>. <br>
+                                <img src="/Images/wave/Insight1.png" alt="Insight1">
+                            </h3>
+                            <h3 class="fade">
+                                2. Youth wants to <strong>avoid the intervention of adults</strong>, yet they <strong>lack the resources and information</strong> to develop programs on their own. <br> 
+                                <img src="/Images/wave/Insight2.png" alt="Insight2">
+                            </h3>
+                            <h3 class="fade">
+                                3. Youth <strong>observing tangible impacts</strong> and listening to <strong>constructive feedback</strong> results in <strong>better engagement and participation</strong>. <br>
+                                <img src="/Images/wave/Insight3.png" alt="Insight3">
+                            </h3>
+                    </div>
+                    <div class="ProblemNarrow">
+                        <h2>Narrowing the Problem Space</h2>
+                        <h4 class="fade">After gaining insights from the interviews with YMCA staff, we utilized the insights to narrow down rough problems mentioned during the interviews to smaller ones so that we can be sure what is the 
+                            underlying painpoints and needs for the youth. After the filtering process, the follwings were the main discoveries that concerned the both the youth and the YMCa branches. 
+                        </h4>
+                        <h3 class="fade">
+                            1. Students are not interested or involved in community activities <strong>both inside and outside the Y.</strong>
+                        </h3>
+                        <h3 class="fade">
+                            2. Youth <strong>are not aware of programs</strong> that match <strong>their interests.</strong>
+                        </h3>
+                        <h3 class="fade">    
+                            3. Some programs <strong>do not have altruistic purposes</strong> since such programs focus more on campaigning the issue rather than resolving the issue practically.
+                        </h3>
+                            <img class="fade" src="/Images/wave/NarrowingScopes.png" alt="NarrowingTable">
+                    </div>
+                    <div class="HowCanWe">
+                        <h2>How Can We Questions</h2>
+                        <img class="fade" src="/Images/wave/HowCanWe.png" alt="HowCanWePostIts">
+                        <h4 class="fade">From the four main insights, my team decided to brainstorm "How can We" questions in order to determine the what painpoints and needs we will mainly tackle to improve 
+                            youth's experience in engaging in more YMCA programs or their own community programs they discover or build independently. the follwings are three main questions we attempted to tackle:
+                        </h4>
+                        <h3 class="fade">
+                            1. Help students <strong>connect with peers</strong> with mutual interests in an <strong>accessible</strong> way.
+                        </h3>
+                        <h3 class="fade">
+                            2. Provide students with <strong>adequate resources and guidance</strong> to launch their own projects while <strong>minimizing adult intervention.</strong>
+                        </h3>
+                        <h3 class="fade">
+                            3. Preserve youth engagement with <strong>positive reinforcement</strong> by <strong>informing the notable impacts of their programs</strong> on their community.
+                        </h3>
+                    </div>
+                    <div class="Synthesizing">
+                        <h2>Synthesizing: Persona</h2>
+                        <img src="/Images/wave/Persona.png" alt="Persona">
+                        <h2>Synthesizing: Stakeholders</h2>
+                        <h4>Among four personas generated, we decided to use the persona of a teenager boy who would be best fit to use a service we envision
+                            we also divided the stakeholders into different stages such as primary, secondary, and tertiary stakeholders. Similar to the persona, our primary stakeholders included youth who are motivated to make changes in the community,
+                            potential youth who are interested to learn more about existing community programs both local and national. Secondary stake holders included youth program staff who oversee these programs including aspects such as the participation of youth.
+                            Tertiary stkaeholders, in general, meant community members and organizations working with youth changemakers.
+                        </h4>
+                        <img src="/Images/wave/Stakeholder.png" alt="Stakeholders">
+                    </div>
+                    <div class="IDEATION">
+                        <h2>Ideation: Affinity diagramming & Crazy Eights</h2>
+                        <h4>The following are possible solutions ideate after thorough user research through affinity diagramming and crazy eights.</h4>
+                        <img src="/Images/wave/PossibleDecisions.png" alt="Possible Solutions">
+                        <h2>Why this Decision?</h2>
+                        <h2>Formal Research</h2>
+                        <h4>Currently, most platforms benefit young and experienced professionals, yet not enough platforms exist for students. 
+                            Considering YMCAs rely on word of mouth to gain a larger student pool, our team thought that building an appropriate digital application accessible to students that help them connect with peers would greatly benefit both the students and the YMCA. 
+                            Such implementation would also benefit students who stopped activities due to Covid to resume programs with new people and initiatives. 
+                             An app would allow advertising on social media and other online venues for youth connections. Our team deemed that such an app would be actively and widely used by youth who are already familiar with technological tools. 
+                        </h4>
+                        <h2>Competitor Research:Reference</h2>
+                        <h4>Before prototyping, our team began researching UIs of competitions such as Handshake, Facebook, Twitter, tinder, LinkedIn, and Instagram. 
+                            The goal was to identify how User Experience design played a role in constructing layouts and functionalities within an app to help people find each other and develop group activities and communication. 
+                            While doing so, the team kept in mind the primary audience for the app which was the youth by selecting features from the competitions that would benefit the youth. 
+                        </h4>
+                        <img src="/Images/wave/References.png" alt="References">
+                    </div>
+                    <div class="Wireframing">
+                        <h2>Wireframing</h2>
+                    </div>
+                </div>
+                <div class="prototypes">
+                    <img src="/Images/wave/LowFidelitySpread.png" alt="LowfidelitySpread">
+                    <img src="/Images/wave/HighFidelitySpread.png" alt="HighFidelitySpread">
+                </div>
+                <div class="Body-Contents">
+                    <div class="UserTesting">
+                        <h2>User Testing</h2>
+                        <h4>We received feedback from meetings with national DFA where universities such as USC, UC Berkeley, and etc. participated during the presentation of our app. WE also conducted user interviews with youth participating in YMCAs to gain insights as to rooms for improvements.</h4>
+                        <ul>
+                            <li><h3>Better align project categories with primary youth interests so we created a survey to determine popular topics for youth.</h3></li>
+                            <li><h3>Allow for youth to post updates about projects and be motivated by viewing others' project updates.</h3></li>
+                            <li><h3>Allow for youth to find organizations and peers based on distance.</h3></li>
+                            <li><h3>Adding chatting features where peers can speak to members of projects before joining and creating project groups.</h3></li>
+                            <li><h3>Include public or private components to one's profile.</h3></li>
+                        </ul>
+                    </div>
+                    <div class="Difficulties">
+                        <h2>difficulties</h2>
+                        <h4>The main difficulty was getting familiar with the design tool because this was my first time prototyping. I had to self-teach myself how to organize the layouts, how to create a design system, etc. 
+                            In terms of the process, I found it difficult to find users to test these products as the targets were mainly high school students. We attempted reaching out to local students, yet it was hard to contact them as well as arrange time because our schedules were drastically different from theirs. 
+                            Also, we came across potential ethical concerns that could arise while conducting user tests with individuals under the age of 18. </h4>
+                    </div>
+                    <div class="DesignSystem">
+                        <h2>Design System</h2>
+                        <h4>For the design system, we tried purple and organelle as the main colors for the design since these colors satisfied our criteria for having a both professional and playful vibe within the platform so that young stakeholders both feel the credibility of our system and feel more familiarity with their possibly first time working independently for the career paths of their interests.
+                            We also added geometrical designs that took inspiration from organic curves and shaped to decrease excessive sharpness in the presentation again to focus on the younger audience.</h4>
+                        <img src="/Images/wave/DesignSystem.png" alt="DesignSystem">
+                    </div>
+                    <div class="BreakDown">
+                        <h2>Break Down of the Final Designs</h2>
+                        <ul>
+                            <li><h3>Oversee Impacts</h3></li>
+                            <div class="Onboarding">
+                                <h4>The application is designed to begin first-time users with an onboarding process that gathers data on their interests, geographical location, age as well as profile preferences for future partners.</h4>
+                                <img src="/Images/wave/Onboarding.png" alt="Onboarding">
+                            </div>
+                            <li><h3>Explore and Connect</h3></li>
+                            <div class="Connect">
+                                <h4>Users can explore profile pages for other changemakers as well as those of organizations to either follow them to see their latest activities to collaborate with them on a group project scale.</h4>
+                                <img src="/Images/wave/Explore.png" alt="Explore">
+                            </div>
+                            <li><h3>Follow up</h3></li>
+                            <div class="FollowUp">
+                                <h4>The home feed provides the most trending and latest updates of various organizations on their activities and impacts made on communities. These provide project inspiration for changemakers who have yet to begin their independent projects.</h4>
+                                <img src="/Images/wave/FollowUp.png" alt="FollowUp">
+                            </div>
+                            <li><h3>Launch a project</h3></li>
+                            <div class="LaunchProject">
+                                <h4>The app allows users to launch projects anytime anywhere.</h4>
+                                <img src="/Images/wave/ProjectLaunch.png" alt="Project Luanch">
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="NextSteps">
+                        <h2>Next Steps</h2>
+                        <h4></h4>
+                    </di>
+                    <div class="Reflections">
+                        <h2>Reflections</h2>
+                        <h4>Looking back, the project took a great deal of research. Next time, I would like to revise the designs further after thorough user testing and the launch of the application. This would have helped me a lot to improve my designing skill along with the ability to use my research to improve visual interactions with the users with flexibility and better decision-making skill.</h4>
+                    </div>
                 </div>
             </section>
         </main>
