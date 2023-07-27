@@ -50,7 +50,7 @@ body {
   transform: translate(-50%, -50%);
 }
 .intro-container a {
-  color: red;
+  color: rgb(255, 117, 18);
 }
 
   /* The navigation bar is this code  */
