@@ -508,6 +508,7 @@ body {
 }
 #body-section h4 {
   font-family: ubuntu, sans-serif;
+  color: rgb(70, 70, 70);
   margin-top: 50px;
   padding-left: 15px;
   border-left: 3px solid rgb(188, 21, 188);
@@ -516,12 +517,32 @@ body {
   align-self: flex-start;
 }
 #body-section h2 {
+  font-weight: 700;
+  color: black;
   align-self: flex-start;
-  text-decoration: underline rgb(188, 21, 188) 3px;
+  /* text-decoration: underline rgb(104, 104, 104) 3px; */
 }
 #body-section img {
   margin-top: 30px;
   margin-bottom: 30px;
+}
+.grey {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(245,245,245);
+}
+.white {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white
+}
+.orange {
+  color: rgb(255, 117, 18);
+  font-size: 22px;
 }
 .Body-Contents {
   width: 60%;
