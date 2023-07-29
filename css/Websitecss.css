@@ -714,8 +714,6 @@ body {
   width: 60%;
   padding-left: 40px;
 }
-
-
 /* Style tags for SNIIP */
 #Surveys {
   display: flex;
@@ -724,4 +722,10 @@ body {
 }
 #Surveys img {
   width:50%
+}
+.Architecture img{
+  width: 100%;
+}
+.UserTest img{
+  width: 100%;
 }
