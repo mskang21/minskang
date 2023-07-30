@@ -1,6 +1,7 @@
 html {
   overflow-y: scroll;
   overflow-x: hidden;
+  animation-delay: 0ms;
 }
 ::-webkit-scrollbar {
   width: 5px;
