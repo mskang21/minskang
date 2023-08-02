@@ -418,7 +418,16 @@ body {
 
 
 /* Style tags for all pages */
-
+#Side-Nav {
+  z-index: 3;
+  position: fixed;
+  transform: translateY(420px);
+}
+#Side-Nav .labels {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
 
 #intro-project {
   display: flex;
