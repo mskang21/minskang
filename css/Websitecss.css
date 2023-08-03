@@ -390,13 +390,14 @@ body {
     font-weight: 400;
     align-content: center;
     font-family: noto serif;
+    margin: 0px;
+    padding: none;
   }
   h1 {
     font-size: 38px;
   }
   h2 {
     font-size: 26px;
-    margin: none;
   }
   h3 {
     font-size: 18px;
@@ -538,6 +539,16 @@ body {
   margin-top: 30px;
   margin-bottom: 30px;
 }
+#footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#footer-section h2 {
+  font-weight: 700;
+  color: black;
+  font-family: noto serif;
+}
 .grey {
   display: flex;
   flex-direction: column;
@@ -604,24 +615,29 @@ body {
   width: 100%;
   margin-top: 80px;
 }
-#SNIIPProject {
+#NextProject {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   align-content: center;
-  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
-#SNIIPProject img {
+#NextProject img {
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
 }
 .Next {
   display: flex;
+  flex-direction: column;
   align-content: center;
   border: 1px solid black;
-  padding: 30px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  justify-content: center;
+  height: 50px;
+  padding: 10px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 /* Style tags for Wave */
 
@@ -769,6 +785,7 @@ body {
   width: 60%;
   padding-left: 40px;
 }
+
 /* Style tags for SNIIP */
 #Surveys {
   display: flex;
