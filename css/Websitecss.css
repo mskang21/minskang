@@ -414,6 +414,17 @@ h3, h4, td, th {
 table, th, td {
   border:1px solid black;
 }
+/* Style tags for all pages */
+#Side-Nav {
+  z-index: 3;
+  position: fixed;
+  transform: translate(40px ,320px);
+}
+#Side-Nav .labels {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
 ul li {
   list-style-type: none;
   font-weight: 400px;
@@ -431,17 +442,9 @@ li a :hover {
   transition-timing-function: ease-in-out;
   transition: 0.4s;
 }
-
-/* Style tags for all pages */
-#Side-Nav {
-  z-index: 3;
-  position: fixed;
-  transform: translate(40px ,320px);
-}
-#Side-Nav .labels {
-  display: flex;
-  flex-direction: column;
-  padding: 10px;
+li a :active {
+  color: rgb(100,100,100);
+  transition: 0.4s;
 }
 #intro-project {
   display: flex;
@@ -532,6 +535,7 @@ li a :hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 #body-section h4 {
   font-family: ubuntu, sans-serif;
@@ -553,6 +557,30 @@ li a :hover {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 15px 15px 15px 15px;
+}
+#Research-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Design-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Final-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#Reflection-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 #footer-section {
   margin-top: 50px;
