@@ -436,7 +436,7 @@ li a :hover {
 #Side-Nav {
   z-index: 3;
   position: fixed;
-  transform: translate(40px ,360px);
+  transform: translate(40px ,320px);
 }
 #Side-Nav .labels {
   display: flex;
@@ -760,6 +760,7 @@ li a :hover {
   text-decoration: none;
 }
 .BreakDown {
+  margin-top: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -800,7 +801,10 @@ li a :hover {
   width: 60%;
   padding-left: 40px;
 }
+.Difficulties {
+  margin-top: 80px;
 
+}
 /* Style tags for SNIIP */
 #Surveys {
   display: flex;
