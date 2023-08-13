@@ -441,6 +441,7 @@ li a {
 }
 li a :hover {
   color: rgb(100,100,100);
+  padding-left: 10px;
   transition-timing-function: ease-in-out;
   transition: 0.4s;
 }
