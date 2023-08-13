@@ -542,7 +542,7 @@ li a :active {
 #body-section h4 {
   font-family: ubuntu, sans-serif;
   color: rgb(70, 70, 70);
-  margin-top: 50px;
+  margin-top: 40px;
   padding-left: 15px;
   border-left: 3px solid rgb(24, 186, 255);
 }
@@ -557,7 +557,7 @@ li a :active {
 }
 #body-section img {
   margin-top: 30px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   border-radius: 15px 15px 15px 15px;
 }
 #Research-section {
@@ -587,6 +587,7 @@ li a :active {
 #footer-section {
   margin-top: 50px;
   margin-bottom: 120px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -660,7 +661,8 @@ li a :active {
 } 
 .Spread {
   width: 100%;
-  margin-top: 120px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 #NextProject {
   display: flex;
@@ -691,7 +693,8 @@ li a :active {
 /* Style tags for Wave */
 
 .FinalSolution {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -705,13 +708,16 @@ li a :active {
   padding-left: 40px;
 }
 .Research {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin-top:60px;
+  margin-bottom: 60px;
 }
 .TopQuestions {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -720,7 +726,8 @@ li a :active {
   width: 100%;
 }
 .ProblemNarrow {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -729,7 +736,8 @@ li a :active {
   width: 100%
 }
 .insights {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -738,7 +746,8 @@ li a :active {
   width: 80%;
 }
 .HowCanWe {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -747,7 +756,8 @@ li a :active {
   width: 100%;
 }
 .IDEATION {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -759,7 +769,8 @@ li a :active {
   width: 100%;
 } 
 .Synthesizing {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -771,12 +782,15 @@ li a :active {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top:60px;
+  margin-bottom: 60px;
 }
 .Wireframing img {
   width: 100%;
 }
 .DesignSystem {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -793,7 +807,8 @@ li a :active {
   text-decoration: none;
 }
 .BreakDown {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -835,7 +850,8 @@ li a :active {
   padding-left: 40px;
 }
 .Difficulties {
-  margin-top: 120px;
+  margin-top:60px;
+  margin-bottom: 60px;
 
 }
 /* Style tags for SNIIP */
@@ -847,9 +863,15 @@ li a :active {
 #Surveys img {
   width:50%
 }
+.Architecture {
+  margin-top:60px;
+  margin-bottom: 60px;
+}
 .Architecture img{
   width: 100%;
 }
 .UserTest {
-  width:100%
+  width:100%;
+  margin-top:60px;
+  margin-bottom: 60px;
 }
