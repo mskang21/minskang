@@ -4,17 +4,18 @@
         <meta charset="utf-8">
         <title>SNIIP</title>
         <link rel="stylesheet" href="/css/Websitecss2.css">
+        <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     </head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
     <script src="//cdn.jsdelivr.net/npm/velocity-animate@2.0/velocity.min.js"></script>
     <script type="text/javascript" src="/js/scroll.js"></script>
     <script type="text/javascript" src="/js/fade.js"></script>   
     <script type="text/javascript" src="/js/nav.js"></script>
-    <script type="text/javascript" src="/js/slider.js"></script>
     <body>
         <header>
             <nav class = 'top-bar'>
@@ -393,12 +394,6 @@
                                     <h3 class="orange">Personal Library</h3>
                                     <h4> Users can add or delete mangas they select in their libraries. Multiple libraries can be created up to the users' choice of categorizing various mangas.</h4>
                                 </div>
-                                <div class="container">
-                                    <div class="image before" style="background-image:url('/Images/SNIIP/random/Plane.jpg');"></div>
-                                    <div class="image after" style="background-image:url('/Images/SNIIP/random/Pulp.jpg');"></div>
-                                    <input type="range" class="slider" min="1" max="100" value="50" />
-                                    <div class="slider-button"></div>
-                                </div>
                             </div>
                             <div class="Communication">
                                 <div class="Column">
@@ -418,6 +413,16 @@
                             </div>
                         </div>
                     </div>
+                    <img-comparison-slider tabindex="0" class="rendered">
+                    <figure slot="first" class="before">
+                        <img width="100%" src="/Images/SNIIP/random/Pulp.jpg">
+                        <figcaption>Before</figcaption>
+                    </figure>
+                    <figure slot="second" class="after">
+                        <img width="100%" src="/Images/SNIIP/random/Plane.jpg">
+                        <figcaption>After</figcaption>
+                    </figure>
+                </img-comparison-slider>
                 </section>
                 <section id="Reflection-section">
                     <div class="Body-Contents">
