@@ -427,6 +427,10 @@ table, th, td {
   flex-direction: column;
   padding: 10px;
 }
+#JumpTo {
+  font-weight: 700;
+  color: rgb(90, 90, 90);
+}
 ul li {
   list-style-type: none;
   font-weight: 400px;
@@ -472,6 +476,12 @@ li a :active {
   text-align: center;
   margin: 20px;
   margin-top: 30px;
+}
+#tags :hover {
+  transition: 0.3s;
+  background-color: rgb(40, 40, 40);
+  color: rgb(230, 230, 230);
+  border-radius: 15px;
 }
 #summary {
   display: flex;
@@ -534,6 +544,12 @@ li a :active {
   margin: 10px;
   font-family: ubuntu, sans-serif;
   font-weight: 400;
+}
+.method-tags :hover, .tool-tags :hover {
+  background-color: rgb(40, 40, 40);
+  transition: 0.3s;
+  color: rgb(230, 230, 230);
+  border-radius: 15px;
 }
 #body-section {
   display: flex;

@@ -29,33 +29,45 @@ body {
   padding-left: 2px;
 }
 #intro-section {
-    display: flex;
-    width: 100%;
-  }
-  .intro-container { 
-      position: relative;
-      text-align: left;
-      color: black;
-  }
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.intro-container { 
+  position: relative;
+  text-align: left;
+  color: black;
+}
 .intro-container img {
   width: 100%;
 }
-.intro-container h2 {
+.intro-contents {
   position: absolute;
   display: flex;
   flex-direction: column;
+  top: 30%;
+  left: 40%;
+  width: 300px;
+  transform: translate(-50%, -30%);
+}
+.intro-container h2 {
   font-size: x-large;
   font-family: ubuntu;
   font-weight: 400;
-  top: 30%;
-  left: 40%;
-  transform: translate(-50%, -30%);
+  margin-bottom: 30px;
 }
 .intro-container a {
   color: rgb(255, 117, 18);
-  text-decoration:underline;
+  text-decoration:none;
 }
-
+.resume {
+  font-size: x-large;
+  font-family: noto serif;
+  border-radius: 20px;
+  color: black;
+  border: 3px solid black;
+  padding: 7px 15px 7px 15px ;
+}
   /* The navigation bar is this code  */
 .top-bar ul {
   list-style-type: none;
@@ -403,10 +415,10 @@ body {
 #ProjectsWorkCard {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   border: 2px solid black;
-  height: 350px;
-  width: 700px;
+  height: 349px;
+  width: 580px;
   border-top-right-radius: 26px;
   margin-bottom: 40px;
     
@@ -448,11 +460,39 @@ body {
       0% 100%
     );
 }
-#projects img, video {
-  border-radius: 0 20px 0 0;
+.project-contents {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 370px;
-  height: 353px;
-  margin-right: 80px;
+  height: 348px;
+  margin-right: 40px;
+  border-right: 2px solid black;
+}
+#Second.project-contents {
+  background-color: rgb(149, 149, 249);
+}
+#BubbleGif {
+  width: 100%;
+  height: 100%;
+}
+#WebsiteImage {
+  width: 80%;
+  height: 100%;
+}
+#FaceGif {
+  width: 100%;
+  height: 100%;
+}
+#projects p {
+  font-family: ubuntu;
+  padding-right: 40px;
+}
+#projects h1 {
+  font-family: noto serif;
+  font-size: x-large;
+  color: black;
+  padding-right: 40px;
 }
 .fade {
   opacity: 1;
@@ -497,6 +537,10 @@ table, th, td {
   display: flex;
   flex-direction: column;
   padding: 10px;
+}
+#JumpTo {
+  font-weight: 700;
+  color: rgb(90, 90, 90);
 }
 ul li {
   list-style-type: none;
@@ -618,8 +662,8 @@ li a :active {
   font-weight: 400;
 }
 .tool-tags :hover {
-  transition: 0.3s;
   background-color: rgb(40, 40, 40);
+  transition: 0.3s;
   color: rgb(230, 230, 230);
   border-radius: 15px;
 }
