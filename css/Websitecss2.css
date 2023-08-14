@@ -6,7 +6,6 @@ html {
 ::-webkit-scrollbar {
   width: 5px;
 }
-
 /* Track */
 ::-webkit-scrollbar-track { 
   border-radius: 5px;
@@ -25,6 +24,7 @@ html {
 body {
   margin: 0;
   width: 100%; 
+  -webkit-font-smoothing: antialiased;
   /* if you want to add some gaps between the edge of the screen, use padding instead */
   padding-left: 2px;
 }
@@ -420,7 +420,7 @@ table, th, td {
 #Side-Nav {
   z-index: 3;
   position: fixed;
-  transform: translate(40px ,320px);
+  transform: translate(40px ,290px);
 }
 #Side-Nav .labels {
   display: flex;
@@ -437,17 +437,17 @@ ul li {
 }
 li a {
   text-decoration: none;
-  color: rgb(200,200,200);
+  color: rgb(160, 160, 160);
 }
 li a :hover {
-  color: rgb(100,100,100);
+  color: rgb(255, 117, 18);
   padding-left: 10px;
   transition-timing-function: ease-in-out;
   transition: 0.4s;
 }
 li a :active {
-  color: rgb(100,100,100);
-  transition: 0.4s;
+  color: rgb(255, 117, 18);
+  padding-left:10px;
 }
 #intro-project {
   display: flex;
