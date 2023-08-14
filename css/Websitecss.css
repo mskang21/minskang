@@ -531,7 +531,7 @@ table, th, td {
 #Side-Nav {
   z-index: 3;
   position: fixed;
-  transform: translate(40px ,320px);
+  transform: translate(40px ,290px);
 }
 #Side-Nav .labels {
   display: flex;
@@ -552,17 +552,17 @@ ul li {
 }
 li a {
   text-decoration: none;
-  color: rgb(200,200,200);
+  color: rgb(160, 160, 160);
 }
 li a :hover {
-  color: rgb(100,100,100);
+  color: rgb(255, 117, 18);
+  padding-left: 10px;
   transition-timing-function: ease-in-out;
   transition: 0.4s;
-  padding-left: 20px;
 }
 li a :active {
-  color: rgb(100,100,100);
-  transition: 0.4s;
+  color: rgb(255, 117, 18);
+  padding-left:10px;
 }
 #intro-project {
   display: flex;
