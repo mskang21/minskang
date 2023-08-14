@@ -826,7 +826,7 @@ li a :active {
 }
 .Library {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
 }
 .Library img {
