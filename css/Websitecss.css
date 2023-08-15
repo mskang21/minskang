@@ -59,13 +59,38 @@ body {
   color: rgb(255, 117, 18);
   text-decoration:none;
 }
-.resume {
-  font-size: x-large;
-  font-family: noto serif;
-  border-radius: 20px;
-  color: black;
-  border: 3px solid black;
-  padding: 7px 15px 7px 15px ;
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 10px 5px 10px 5px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
   /* The navigation bar is this code  */
 .top-bar ul {
@@ -152,6 +177,7 @@ body {
 }
 #workBar h2 {
   font-family: noto serif;
+  font-weight: 700;
   margin-block-end: 0;
   margin-block-start: 0;
 }
@@ -339,6 +365,7 @@ body {
 }
 #skillbar h2 {
   font-family: noto serif;
+  font-weight: 700;
 }
 #skills-Methods {
   margin-top: 70px;
@@ -398,6 +425,7 @@ body {
 }
 #projectBar h2{
   font-family: noto serif;
+  font-weight: 700;
 }
 .projectContainer {
   display: flex;
