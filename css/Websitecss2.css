@@ -792,7 +792,7 @@ li a :active {
   align-items: center;
 }
 .Synthesizing img {
-  width: 100%
+  width: 80%
 }
 .Wireframing {
   display: flex;
@@ -850,7 +850,7 @@ li a :active {
 }
 .Onboarding img {
   width: 90%;
-  padding-left: 40px;
+  /* padding-left: 40px; */
 }
 .Library {
   display: flex;
@@ -867,7 +867,7 @@ li a :active {
 }
 .Communication img {
   width: 70%;
-  padding-left: 40px;
+  /* padding-left: 40px; */
 }
 .Browsing {
   display: flex;
@@ -876,7 +876,7 @@ li a :active {
 }
 .Browsing img{
   width: 70%;
-  padding-left: 40px;
+  /* padding-left: 40px; */
 }
 .Difficulties {
   margin-top:60px;
@@ -904,4 +904,16 @@ li a :active {
   width:100%;
   margin-top:60px;
   margin-bottom: 60px;
+}
+.ImageBorder {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 30px 20px 30px;
+  width: 100%;
+  border-radius: 15px;
+  background-color: rgb(240, 240, 240);
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
