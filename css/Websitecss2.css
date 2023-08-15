@@ -76,7 +76,7 @@ body {
   float: left;
   font-weight: 400;
   font-size: large;
-  padding-left: 40px;
+  padding-left: 25px;
 }
 .top-bar a {
   display: block;
@@ -420,7 +420,7 @@ table, th, td {
 #Side-Nav {
   z-index: 3;
   position: fixed;
-  transform: translate(40px ,290px);
+  transform: translate(25px ,290px);
 }
 #Side-Nav .labels {
   display: flex;
@@ -573,11 +573,6 @@ li a :active {
   align-self: flex-start;
   /* text-decoration: underline rgb(104, 104, 104) 3px; */
 }
-#body-section img {
-  margin-top: 30px;
-  /* margin-bottom: 30px; */
-  border-radius: 15px 15px 15px 15px;
-}
 #Research-section {
   display: flex;
   flex-direction: column;
@@ -674,8 +669,8 @@ li a :active {
 }
 .diagramming3 img {
   width: 40%;
-  padding-left: 50px;
-  border-radius: 15px;
+  margin-left: 50px;
+  border-radius: 15px 15px 15px 15px;
 } 
 .Spread {
   width: 100%;
@@ -732,6 +727,9 @@ li a :active {
   align-items: center;
   margin-top:60px;
   margin-bottom: 60px;
+}
+.Research img {
+  border-radius: 15px 15px 15px 15px;
 }
 .TopQuestions {
   margin-top:60px;
@@ -805,6 +803,7 @@ li a :active {
 }
 .Wireframing img {
   width: 100%;
+  border-radius: 15px 15px 15px 15px;
 }
 .DesignSystem {
   margin-top:60px;
@@ -834,6 +833,9 @@ li a :active {
 .Column h2 {
   text-decoration: none;
 }
+.column img {
+  border-radius: 0;
+}
 .BreakDown {
   margin-top:60px;
   margin-bottom: 60px;
@@ -847,7 +849,7 @@ li a :active {
   align-items: center;
 }
 .Onboarding img {
-  width: 60%;
+  width: 90%;
   padding-left: 40px;
 }
 .Library {
