@@ -919,6 +919,7 @@ li a :active {
 .DesignSystem img {
   width: 60%;
 }
+
 .Column {
   display: flex;
   flex-direction: column;
