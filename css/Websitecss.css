@@ -3,6 +3,12 @@ html {
   overflow-x: hidden;
   animation-delay: 0ms;
 }
+.Cursor {
+  width: 30px;
+  height: 30px;
+  color: red;
+  border-radius: 15px;
+}
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -46,11 +52,17 @@ body {
   flex-direction: column;
   top: 30%;
   left: 40%;
-  width: 300px;
-  transform: translate(-50%, -30%);
+  width: 400px;
+  transform: translate(-50%, -20%);
+}
+.intro-container h1 {
+  font-size: 52px;
+  font-family: noto serif;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 .intro-container h2 {
-  font-size: x-large;
+  font-size: large;
   font-family: ubuntu;
   font-weight: 400;
   margin-bottom: 30px;
@@ -411,7 +423,6 @@ body {
   display: flex;
   width: 100%;
   flex-direction: column;
-  margin-bottom: 500px;
   align-items: center;
 }
 #projectBar {
@@ -1014,4 +1025,20 @@ li a :active {
 }
 .UserTest {
   width:100%
+}
+/* footer */
+footer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-color: black;
+}
+.email {
+  padding-left: 10px;
+  color: white;
+}
+.YearCreated {
+  padding-right: 10px;
+  color: white;
 }
