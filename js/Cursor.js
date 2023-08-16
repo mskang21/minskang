@@ -1,10 +1,10 @@
-const cursorCustom = document.querySelector('.Cursor');
+const cursor = document.querySelector(".cursor");
 
-const moveCursor = (e)=> {
-  const mouseY = e.clientY;
-  const mouseX = e.clientX;
-   
-  cursorCustom.style.transform = `translate3d(${mouseX}px, ${mouseY}px, 0)`;
-}
+document.addEventListener("mousemove", (e) => {
+  let leftPosition = e.pageX;
+  let topPosition = e.pageY;
 
-window.addEventListener('mousemove', moveCursor)
+  cursor.style.left = leftPosition + "px";
+  cursor.style.top = topPosition + "px";
+})
+
