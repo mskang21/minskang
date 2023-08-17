@@ -3,12 +3,6 @@ html {
   overflow-x: hidden;
   animation-delay: 0ms;
 }
-.Cursor {
-  width: 30px;
-  height: 30px;
-  color: red;
-  border-radius: 15px;
-}
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -32,12 +26,12 @@ body {
   width: 100%; 
   /* if you want to add some gaps between the edge of the screen, use padding instead */
   padding-left: 2px;
+  overflow: hidden;
 }
 #intro-section {
   display: flex;
   flex-direction: column;
   width: 100%;
-  cursor: url("/Images/About/CustomCursor.png"), auto;
 }
 .intro-container { 
   position: relative;
@@ -154,7 +148,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  cursor: url("/Images/About/CustomCursor.png"), auto;
 }
 #workCard-wave {
   margin-top: 50px;
@@ -367,7 +360,6 @@ body {
   flex-direction: column;
   align-items: center;
   flex-wrap: nowrap;
-  cursor: url("/Images/About/CustomCursor.png"), auto;
 }
 #skillbar {
   border-bottom: 1px solid black;
@@ -427,7 +419,6 @@ body {
   width: 100%;
   flex-direction: column;
   align-items: center;
-  cursor: url("/Images/About/CustomCursor.png"), auto;
 }
 #projectBar {
   border-bottom: 1px solid black;
@@ -766,7 +757,6 @@ li a :active {
   display: flex;
   flex-direction: column;
   align-items: center;
-  cursor: url('/Images/About/CustomCursor.png'), auto;
 }
 #footer-section h2 {
   font-weight: 600;
@@ -1048,18 +1038,5 @@ footer {
   color: white;
 }
 /* Cursor */
-.cursor {
-  position:fixed;
-  width:40px;
-  height: 40px;
-  border-radius: 50%;
-  border: 2px solid black;
-  left: 0px;
-  top: 500px;
-}
-.cursor.large {
-  height: 70px;
-  width:70px;
-}
 
 
