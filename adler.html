@@ -2,129 +2,493 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>styleForgeAI</title>
-        <link rel="stylesheet" href="/css/Websitecss.css">
+        <title>SNIIP</title>
         <link rel="stylesheet" href="/css/Websitecss2.css">
+        <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin">
     </head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/velocity-animate@2.0/velocity.min.js"></script>
+    <script type="text/javascript" src="/js/scroll.js"></script>
+    <script type="text/javascript" src="/js/fade.js"></script>   
+    <script type="text/javascript" src="/js/nav.js"></script>
     <body>
         <header>
             <nav class = 'top-bar'>
               <ul>
-                <li class = 'myName'><a href="index.html">Minsung</a></li>
+                <li class = 'myName'><a href="index.html">Minsung Kang</a></li>
                 <div class="top-bar-right">
                   <li><a href="index.html#work-section">works</a></li>
                   <li><a href="index.html#skills-section">skills</a></li>
-                  <li><a href="index.html#about-section">about</a></li>
-                  <li><a href="index.html">resume</a></li>
+                  <li><a href="index.html#about-section">projects</a></li>
+                  <li><a href="index.html">about</a></li>
                 </div>
               </ul>
             </nav>
           </header>
         <main>
+            <nav id="Side-Nav">
+                <ul class="labels">
+                    <li id="JumpTo"><span class="label">Jump to</span></li>
+                    <li><a href="SNIIP.html#intro-project"><span class="label">Overview</span></a></li>
+                    <li><a href="SNIIP.html#Research-section"><span class="label">Research</span></a></li>
+                    <li><a href="SNIIP.html#Design-section"><span class="label">Design Process</span></a></li>
+                    <li><a href="SNIIP.html#Final-section"><span class="label">Final</span></a></li>
+                    <li><a href="SNIIP.html#Reflection-section"><span class="label">Reflection</span></a></li>
+                </ul>
+            </nav>
             <section id="intro-project">
                 <div class="project-image">
-                    <img src="/Images/wave/IntroBar.png" alt="">
+                    <img src="/Images/Adler/Thumbnail/AdlerBar.png" alt="IntroBar">
                 </div>
-                <div class="tags">
-                    <h2>Duration: Fall 2021 ~ Spring 2022</h2>
-                    <h2>Collaborator: Chelsea Tang, Avani Guduri, Spoorthi Cherivirala</h2>
+                <div id="tags">
+                    <h4><strong>DURATION:</strong>Summer 2022</h4>
+                    <h4><strong>COLLABORATORS:</strong>Naryeong Kim, Seongjun Jo</h4>
                 </div>
-                <div class="summary">
-                    <p>In the Fall of 2021, I begun a design project in an organization called Design For America in cooperation with national YMCA(Youg Men's Christian Association).
-                        We entered a CMU Design Fair at the end of the academic year hosted by DFA to present out project and won the best design award out of 10 teams by giving a short 5 min breif elevator pitch.
-                        In this project, I took the role of a UX researcher to build a mobile app that faciliatates professional career building foundations for youths in high school and their peers. 
-                        This project aimed to foster the youth participatoin within the community by maximizing their impacts in local organizatios with the help of mentors from the platform. 
-                    </p>
+                <div id="summary">
+                    <img src="/Images/Adler/Logo/Logo.png" alt="">
+                    <h4>In the summer of 2022, I helped a a VR start up called <strong>Adler</strong> based in Seoul. The startup was on its way to launching a beta version service of its initial 3D vr gallery where
+                        users could easily create a virtual gallery with their photos uploaded in a 3D space. With the service, the company able to raise about <strong>$2 million</strong> 
+                        at <strong>a valuation of $6 million</strong> through venture capitalists' fundings. The newly designed product aimed to increase the user interaction as well as <strong>easier, faster, and aesthetically pleasing</strong> services. 
+                        I was able to learn more about <strong>designing user experience for a SNs platform</strong> while contemplating the implementations of novel technical aspects of the service such as 
+                        <strong>three.js</strong>.
+                    </h4>
                 </div>
-                <div class="methods">
+                <div id="methods" class="fade">
                     <div class="method-Label">
-                        <h1>Methods</h1>
+                        <h2>Methods</h2>
                     </div>
                     <div class="method-tags">
-                        <h2>User Research</h2>
-                        <h2>User Testing</h2>
-                        <h2>Wireframing</h2>
-                        <h2>Prototyping</h2>
-                        <h2>Storyboarding</h2>
+                        <h4>User Research</h4>
+                        <h4>User Testing</h4>
+                        <h4>Wireframing</h4>
+                        <h4>Prototyping</h4>
+                        <h4>Semi-structured Interviews</h4>
+                        <h4>Affinity Diagramming</h4>
+                        <h4>Persona Crafting</h4>
+                        <h4>Value Opportunity Analysis</h4>
+                        <h4>Information Architecture</h4>
                     </div>
                 </div>
-                <div class="tools">
+                <div id="tools" class="fade">
                     <div class="tool-Label">
-                        <h1>Tools</h1>
+                        <h2>Tools</h2>
                     </div>
                     <div class="tool-tags">
-                        <h2>Figma</h2>
-                        <h2>Slack</h2>
-                        <h2>Google Workspace</h2>
+                        <h4>Figma</h4>
+                        <h4>Slack</h4>
+                        <h4>Discord</h4>
+                        <h4>Google Workspace</h4>
+                        <h4>Kickstarter</h4>
                     </div>
-                </div>
-                <div id="intro-paragraph">
-                    <div class="logo"></div>
-                    <div class="writing"></div>
                 </div>
             </section>
             <section id="body-section">
-                <div class="EndProduct">
-                    <h1>End Product</h1>
-                    <p>An application compatible with desktop and mobile settings where users can create virtual 3D galleries and promote contents of their choice.</p>
+                <div class="Body-Contents">
+                    <div class="FinalSolution">
+                                <h3 class="orange">End product</h3>
+                                <h2>3D SNS Gallery</h2>
+                                <h4 data-scroll class="fade">
+                                    The Beta version could be summarized as an application compatible with desktop and mobile settings where users can create virtual 3D galleries and promote contents of their choice.  
+                                </h4>
+                            <img src="/Images/Adler/EndProduct.png" alt="EndProduct">
+                    </div>
                 </div>
-                <div class="UserResearch">
-                    <h1>Organizing User Research</h1>
-                    <p> My team interviewed artists around the age early 20s and 30s to find the user need to create spaces in Adler. Also, These users were from the previous MVP of the product where they were only able to create simple 3D galleries with limited upload functionalities.</p>
-                    <P>User research was done on phone as well as on zoom virtually with previous users as well as artists that we have reached out from different SNS platforms that mainly target artist growth and promotion. These services included Grafolio, Instagram and Deviant Art.</P>
-                </div>
-                <div class="Competitive Research">
-                    <img src="/Images/Adler/CompetitiveResearch.png" alt="CompetitiveResearch">
-                </div>
-                <div class="insights">
-                    <h1>Insights</h1>
-                    <p>Below are user insights gathered from researching</p>
-                    <img src="/Images/Adler/Insight1.png" alt="Insight1">
-                    <img src="/Images/Adler/Insight2.png" alt="Insight2">
-                    <img src="/Images/Adler/Insight3.png" alt="Insight3">
-                    <img src="/Images/Adler/Insight4.png" alt="Insight4">
-                </div>
-                <div class="NarrowingScopes">
-                    <h1>Narrowing Copes</h1>
-                    <p>From big problems, small problems such as, lack of categories for uploaded works under search, sporadic updates of the system and uploads of users' works, and a lack of notification, were deduced.</p>
-                    <img src="/Images/Adler/NarrowingScopes.png" alt="NarrowingScopes">
-                </div>
-                <div class="HowCanWe">
-                    <h1>How might we Questions</h1>
-                    <img src="/Images/Adler/HowMightWes.png" alt="HowMightWes">
-                </div>
-                <div class="Synthesizing">
-                    <h1>Synthesizing</h1>
-                    <h2>Stakeholder</h2>
-                    <img src="" alt="">
-                    <p>Before moving onto developing prototypes for the service, our team generated stakeholder map and user persona. <br>
-                        Primary stakehodlers of the service included followings: Artsits and content creators interested in promoting their works online in accessible ways; and Gallerists or collectors who are restricted by money and time constraints to display works in a real-life setting or architecture. <br>
-                        Secondary stakeholders included the followings: Art appreciatros who would like to view works of their favrotie artists on line; and indiiduals in virtual reality who would like to view contents in an immersive environment. 
-                    </p>
-                    <h2>Personas</h2>
-                    <img src="" alt="">
-                </div>
-                <div class="IDEATION">
-                    <h1>Ideation</h1>
-                    <p>Below are ideas we had to develop our existing desktop design to better user experience targetting user personas.</p>
-                </div>
-                <div class="Prototyping">
-                    <h1>Low-Fidelity Prototyping</h1>
-                    <p></p>
-                    <img src="" alt="">
-                    <h1>High-Fidelity Prototyping</h1>
-                    <p></p>
-                    <img src="" alt="">
-                </div>
-                <div class="NextSteps">
-                    <h1>Beta Version Product</h1>
-                    <p>I Designed basic wireframes for beta version product</p>
-                    <h1>Art Fair</h1>
-                    <p>Went to an art fair to introduce the product to a wider population of artists in Focus Art Fair</p>
+                <section id="Research-section">
+                    <div class="grey">
+                        <div class="Body-Contents">
+                            <div class="Research">
+                                <h3 class="orange">Organizing Research</h3>
+                                <h2>User Research</h2>
+                                <div class="diagramming">
+                                    <div class="column">
+                                        <h3 class="orange">Visual Artists</h3>
+                                        <img src="/Images/Adler/UserResearch/BrushIcon.png" alt="BrushIcon">
+                                        <h4 class="fade"> 
+                                            I interviewed artists around the age early 20s and 30s to find the user need to create spaces in Adler. These artists wanted <strong>more user interactsions with other creators</strong> in the Space
+                                            to <strong>find partnership opportunities with visitors</strong>.
+                                        </h4>
+                                    </div>
+                                    <div class="column">
+                                        <h3 class="orange">Musicians</h3>
+                                        <img src="/Images/Adler/UserResearch/MusicIcon.png" alt="MusicIcon">
+                                        <h4 class="fade">
+                                            These users were musicians from the previous MVP of the product where they were only able to create simple 3D galleries with <strong>limited upload functionalities</strong>. 
+                                            They faced the need to find functions to <strong>upload music they make to the space</strong> which was not implemented previously due to loading speed issues. 
+                                        </h4>
+                                    </div>
+                                    <div class="column">
+                                        <h3 class="orange">Non-Artists</h3>
+                                        <img src="/Images/Adler/UserResearch/NonArtist.png" alt="NonArtists">
+                                        <h4 class="fade">
+                                            These users were non-creators who utitlized the MVP of our service to make 3D gallery spaces for their family photos and other documented photos that commemorate 
+                                            the memories of special events. These users wanted more functionalities that enable them to decorate the space to their taste without efforts of creating decorations by themselves.
+                                        </h4>
+                                    </div>
+                                </div>
+                                <h4 class="fade">
+                                    From these Interviews, we were able to distinguish what improvements should be made to make a <strong>more easily accessible</strong>, <strong>customizable</strong>, <strong>Interactive</strong> and <strong>less time consuming upload process</strong>.
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Body-Contents">
+                            <div class="Research">
+                                <div class="diagramming">
+                                    <div class="column">
+                                        <h3 class="orange">Market Analysis</h3>
+                                        <h2>Competitive Research</h2>
+                                        <h4 class="fade">
+                                            For Market Research we decided to look into other 3D paltofrms among which there were companies that provide 3D models at purchase, provide 3D vr experience gears, provide services to create different spaces 
+                                            depending on users' customization, and etc. The common porblems among these companies was <strong>a lack of fast and easily accesible vr experience</strong> without <strong>compatibility issues</strong> with devices and equipments. 
+                                            There were also common problems with many users <strong>ot able to reach the minimum level of understanding the method of using these devices and services for an active user engagement within the service</strong>. 
+                                        </h4>
+                                    </div>
+                                    <img src="/Images/Adler/CompetitiveResearch.png" alt="CompetitiveResearch">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Body-Contents">
+                        <div class="insights">
+                            <h3 class="orange">Insights</h3>
+                            <h2>Main Insights from Interviews</h2>
+                            <h4 class="fade">After rounds of interviews where my team asked questions above with following up questions that varied in each interview process, we were able to discover main insights about the underlying problems and the painpoints of 
+                                current manga enthusiasts that actively use existing mobile and desktop platforms to view mangas</h4>
+                            <h3 class="fade">
+                                1. Users want to change the space easily <strong>while and after</strong> uploading contents.
+                            </h3>
+                            <h3 class="fade">
+                                2. Users want <strong>more functionalities</strong> with <strong>faster loading time</strong> of the gallery.
+                            </h3>
+                            <h3 class="fade">
+                                3. Users would like to communicate with eachother online as if they were <strong>talking in real life</strong>.
+                            </h3>
+                            <h3 class="fade">
+                                4. Users want to access the spaces they create anywhere with <strong>no limitiation of devices</strong> they use.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="Body-Contents">
+                        <div class="ProblemNarrow">
+                            <h3 class="orange">Defining Scope</h3>
+                            <h2>Narrowing the Problem Space</h2>
+                            <h4 class="fade">After gaining The main insights that explain the pain ponits of the users, we devided to broaden out scope into investigating what problems are really causing these issues and needs so that out team 
+                                would be able to develop how can we questions with a wider view into assessing the problem space. As a result, the team concluded that the above problems shown by the insights originated from the problems below.
+                            </h4>
+                            <h3 class="fade">
+                                1. A lot of lucrative manga contents do not reach western market 
+                            </h3>
+                            <h3 class="fade">
+                                2. Lack of platforms that provide accessible and stable manga reading experience.
+                            </h3>
+                                <img src="/Images/Adler/NarrowingScopes.png" alt="NarrowingScopes">
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Body-Contents">
+                            <div class="HowCanWe">
+                                <h3 class="orange">How Can We Questions</h3>
+                                <h2>Top Three Questions</h2>
+                                <h4 class="fade">With the focuses of these questions we branched off into three main questions that we focued on takling the users' biggest painpoints. 
+                                    For SNIIP, we decided to increase user interactions not only between users but also authors, minimize the effort in selecting favorites from large pool of mangas available online,
+                                    make the mangas readily available to read, and create a customizable environment where users can create personal spaces for the most optimized user experience.
+                                </h4>
+                                <h3 class="fade">
+                                    1. How can users feel their interactions with the authors and their access to the mangas trustworthy? 
+                                </h3>
+                                <h3 class="fade">
+                                    2. How might we minimized user effort in searching for mangas?
+                                </h3>
+                                <h3 class="fade">
+                                    3. How might we allow users to customize the app according to their preferences of mangas?
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Body-Contents">
+                        <div class="Synthesizing">
+                            <h3 class="orange">Synthesizing 1)</h3>
+                            <h2>Stakeholder Mapping</h2>
+                            <h4 class="fade">
+                                For the synthesizing process, we have decided to identify our primary, secondary, and tertiary users of the product. Our primary users included, 
+                                readers who want a personalized reading experience and the users in western countries who want to understand more mangas.
+                            </h4>
+                            <img src="/Images/SNIIP/StakeholderMap.png" alt="StakeholderMap">
+                        </div>
+                        <div class="Synthesizing">
+                            <h3 class="orange">Synthesizing 2)</h3>
+                            <h2>Personas</h2>
+                            <h4 class="fade">
+                                We have come up with two personas whic included: a manga publisher/artist, and an manga enthusiast. We decied the personas to be two types of customers of our product which were authors and readers. 
+                                During the design process, this persona construction helped to remind ourselves that the product not only aims to attract readers, but also authors and small creators 
+                                who want more exposure of their products to the public.
+                            </h4>
+                            <img src="/Images/SNIIP/Persona.png" alt="Persona">
+                        </div>
+                    </div>
+                </section>
+                <section id="Design-section">
+                    <div class="grey">
+                        <div class="Body-Contents">
+                            <div class="IDEATION">
+                                <h3 class="orange">Brainstorming: Crazy 8</h3>
+                                <h2>Possible Ideas</h2>
+                                <h4 class="fade">
+                                    Through a rapid brainsotrming session within the team and the developers, we came up with ideas as to how we were going to 
+                                    tackle our <strong>main goal</strong> of the product which was to make manga experience <strong>Interactive, Accessible, and Personalized.</strong>
+                                    With the following choices below - making a page for the author of a manga to display a simple biography with his or her other works; displaying analytics for how often, what types, 
+                                    what genres, and so on regarding the reader's reading history, building a personal library for users to save works to cotinusouly read, making a gamified design, and attractive thumbnails -
+                                    our team decided to choose ideas of "Gamified design," "Author introduction space," and a "Personal library" as out main focuses. 
+                                </h4>
+                                <img src="/Images/SNIIP/PossibleIdeas.png" alt="PossibleIdeas">
+                            </div>
+                            <div class="IDEATION">
+                                <h3 class="orange">Reasons</h3>
+                                <h2>Why this Decision?</h2>
+                                <h4 class="fade">
+                                    Through a rapid brainsotrming session within the team and the developers, we came up with ideas as to how we were going to 
+                                    tackle our <strong>main goal</strong> of the product which was to make manga experience <strong>Interactive, Accessible, and Personalized.</strong>
+                                    With the following choices below - making a page for the author of a manga to display a simple biography with his or her other works; displaying analytics for how often, what types, 
+                                    what genres, and so on regarding the reader's reading history, building a personal library for users to save works to cotinusouly read, making a gamified design, and attractive thumbnails -
+                                    our team decided to choose ideas of "Gamified design," "Author introduction space," and a "Personal library" as out main focuses. 
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Body-Contents">
+                        <div class="Architecture">
+                            <h3 class="orange">Requirements Planning</h3>
+                            <h2>Functionalities</h2>
+                            <h4 class="fade">
+                                With these decisions in mind, we have decided to <strong>layout functionalities</strong> before jumping into designs. My team used a google sheet 
+                                to layout functionalities for each page with rough description and ideas for their UI compoenents and navigation methods. We have also planned out the animation descriptions
+                                intuitively so that each member of the team could focus on the sections of the product he or she is designated with. Despite having a general requirement documented before jumping into prototyping,
+                                it was important that we allowed <strong>a lot of rooms for changes and intuitive work process</strong> rather than a systematic task oritented prototyping. 
+                            </h4>
+                            <img src="/Images/SNIIP/UX Requirements.png" alt="Requirements">
+                        </div>
+                    </div>
+                    <div class="Body-Contents">
+                        <div class="Architecture">
+                            <h3 class="orange">Mapping</h3>
+                            <h2>User Flow</h2>
+                            <h4 class="fade">
+                                On top of the functionality specifications, the team deicded to build a User flow map with guidance as to which icon leads to which page with various navigation methods such as, on click, on drag, and etc.
+                                This allowed us to keep in mind how we would connect the flows between the pages we create so that we can build a working prototype when we finish high fidelity prototypes. 
+                            </h4>
+                            <h4 class="fade"></h4>
+                            <img src="/Images/SNIIP/UserFlow.png" alt="UserFlow">
+                        </div>
+                    </div>
+                    <div class="Body-Contents">
+                        <div class="Architecture">
+                            <h3 class="orange">Architecture</h3>
+                            <h2>Information Architecture</h2>
+                            <h4 class="fade">
+                                The team begun building a information architecture for our mobile product so that we could recollect in case we forget what decisions we have made in the process of brainstorming and 
+                                affinity diagraming.
+                            </h4>
+                            <img src="/Images/SNIIP/Information Architecture.png" alt="Information Architecture">
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Body-Contents">
+                            <div class="Wireframing">
+                                <h3 class="orange">Rapid Prototyping</h3>
+                                <h2>Low-Fidelity Prototype: Sketches</h2>
+                                <h4>
+                                    For the intital staging of prototypes, we have decided to each come up with sketches for the entire product. After creating multiple prototypes, we have decided to either <strong>take strongest sketches from each member</strong>
+                                    or <strong>take the strognest assets from each one's sketches and merge them together to come up with a better prototype.</strong>
+                                </h4>
+                                <img src="/Images/SNIIP/PrototypeSketches.png" alt="PrototypeSketches">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Body-Contents">
+                        <div class="Wireframing">
+                            <h3 class="orange">Wireframing</h3>
+                            <h2>Low-Fidelity Prototype: Combination</h2>
+                            <h3 class="orange"></h3>
+                            <img src="/Images/SNIIP/LowFidelity.png" alt="Low-FidelityPrtotype">
+                        </div>
+                    </div>
+                    <div class="grey">
+                        <div class="Body-Contents">
+                            <div class="UserTest">
+                                <h2>User Test #1</h2>
+                                <h3 class="orange">User Test: Contextual-Inquiries</h3>
+                                <div class="diagramming3">
+                                    <h4 class="fade">
+                                        For the user testing process, we were able to set up zoom calls with users who have been reading mangas on competitor websites 
+                                        to evaluate the designs on the low fidelity prototype. The contextual inquries we conducted offered us <strong>insights as to what functions</strong> can make our platform more user centric by <strong>understanding mico-pain points</strong> 
+                                        individuals experienced on competitor platforms such as: complex searching method, unorganized libraries, and etc.
+                                    </h4>
+                                    <img src="/Images/SNIIP/ContextualInquiry.png" alt="Contextual-Inquiries">
+                                </div>
+                                <div class="diagramming2">
+                                    <div class="column">
+                                        <h3 class="orange">Test Results</h3>
+                                        <img src="/Images/SNIIP/Lo-fi Affinity Diagraming/User Test Results.png" alt="Test Results">
+                                    </div>
+                                    <div class="column">
+                                        <h3 class="orange">Solutions</h3>
+                                        <img src="/Images/SNIIP/Lo-fi Affinity Diagraming/Possible Solutions.png" alt="Solutions">
+                                    </div>
+                                    <div class="column">
+                                        <h3 class="orange">Implementations</h3>
+                                        <img src="/Images/SNIIP/Lo-fi Affinity Diagraming/Final Solutions.png" alt="Final Solutions">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="UserTest">
+                                <h2>User Test #2</h2>
+                                <h3 class="orange">Mid Fidelity Prototype User Test: Wizard of Oz, Think Aloud</h3>
+                                <div class="diagramming3">
+                                    <h4>For the second round of user tests, we were able re-evaluate a more devleoped version of low fidelity prototype through wizard of oz technique where we had participants 
+                                        go through our mock interface in a figma prototype. While doing so, the users were ask to present their thoughts verbally such as "I am clicking on this icon," "Now I am on this page I will click this arrow to see....," and
+                                        etc.
+                                    </h4>
+                                    <img src="/Images/SNIIP/Wizard of Oz.png" alt="RecordingScreenshot">
+                                </div>
+                                <div class="diagramming2">
+                                    <div class="column">
+                                        <h3 class="orange">Test Results</h3>
+                                        <img src="/Images/SNIIP/Mid-Fi affinity diagraming/User Test Results.png" alt="Test Results">
+                                    </div>
+                                    <div class="column">
+                                        <h3 class="orange">Solutions</h3>
+                                        <img src="/Images/SNIIP/Mid-Fi affinity diagraming/Possible Solutions.png" alt="Solutions">
+                                    </div>
+                                    <div class="column">
+                                        <h3 class="orange">Implementations</h3>
+                                        <img src="/Images/SNIIP/Mid-Fi affinity diagraming/Final.png" alt="Final Solutions">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Body-Contents">
+                        <div class="DesignSystem">
+                            <h3 class="orange">Design System</h3>
+                            <h2>Fonts and Colors</h2>
+                            <h4>For the design system, we tried orange and organelle as the main colors for the design since these colors satisfied our criteria for having a both professional and playful vibe within the platform so that young stakeholders both feel the credibility of our system and feel more familiarity with their possibly first time working independently for the career paths of their interests.
+                                We also added geometrical designs that took inspiration from organic curves and shaped to decrease excessive sharpness in the presentation again to focus on the younger audience.</h4>
+                            <img src="/Images/SNIIP/Design System.png" alt="DesignSystem">
+                        </div>
+                    </div>
+                </section>
+                <section id="Final-section">
+                    <div class="Body-Contents">
+                        <div class="BreakDown">
+                            <h3 class="orange">Break Downs</h3>
+                            <h2>Final Designs</h2>
+                            <div class="Onboarding">
+                                <div class="column">
+                                    <div class="rowFormat">
+                                        <div class="Column">
+                                            <h3 class="orange">Pick Genres</h3>
+                                            <h4>The onboarding process allows users to pick their favorite genres for the application to autonomously suggest mangas according to users' preferences in home page.</h4>
+                                        </div>
+                                        <video width="300px" autoplay muted loop src="/videos/SNIIP/PickGenres.mp4"></video>
+                                    </div>
+                                    <div class="ImageBorder">
+                                        <img src="/Images/SNIIP/Pages/PickGenres.png" alt="Onboarding">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Library">
+                                <div class="rowFormat">
+                                    <div class="Column">
+                                        <h3 class="orange">Personal Library</h3>
+                                        <h4> Users can add or delete mangas they select in their libraries. Multiple libraries can be created up to the users' choice of categorizing various mangas.</h4>
+                                    </div>
+                                    <video width="300px" autoplay muted loop src="/videos/SNIIP/library.mp4"></video>
+                                </div>
+                                <div class="rowFormat">
+                                    <div class="ImageBorder">
+                                        <div class="Column">
+                                            <p>Initial</p>
+                                            <img class="LibraryBefore" src="/Images/SNIIP/Library Before and After/LibraryBefore.png" alt="Before">
+                                        </div>
+                                        <div class="Column">
+                                            <p>Final(After Change)</p>
+                                            <img class="LibraryAfter" src="/Images/SNIIP/Library Before and After/LibraryAfter.png" alt="After">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Communication">
+                                <div class="column">
+                                    <div class="rowFormat">
+                                        <div class="Column">
+                                            <h3 class="orange">Reading and Author Exploration</h3>
+                                            <h4> Users are able to learn more about authors who produced mangas they like from author page that introduces author's other mangas available in the application.
+                                                Users can leave comments at the end of each episode of a manga to express their views  and thorughts on the stories 
+                                            </h4>
+                                        </div>
+                                        <video width="300px" autoplay muted loop src="/videos/SNIIP/mangareading.mp4"></video>
+                                    </div>
+                                    <div class="ImageBorder">
+                                        <img src="/Images/SNIIP/Pages/CommunicationAnnotated.png" alt="FollowUp">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Browsing">
+                                <div class="column">
+                                    <div class="rowFormat">
+                                        <div class="Column">
+                                            <h3 class="orange">Browsing Mangas</h3>
+                                            <h4>The app exposed users to many mangas in different filterins such as rankings in each genre, autonomously chosen mangas to users' taste, top selection of most viewed and trending mangas on a daily and weekly basis.</h4>
+                                        </div>
+                                        <video width="300px" autoplay muted loop src="/videos/SNIIP/Browsing.mp4"></video>
+                                    </div>
+                                    <div class="ImageBorder">
+                                        <img src="/Images/SNIIP/Pages/Browse.png" alt="Project Luanch">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="Reflection-section">
+                    <div class="Body-Contents">
+                        <div class="Difficulties">
+                            <h3 class="orange">Reflections</h3>
+                            <h2>difficulties</h2>
+                            <h4 class="fade">Since this was entirely a remote internship, all communications and work sessions were carried out remotely. Also, with teammates from different parts of hte country and the world, we had to coordinate our time 
+                                to find the time where we could meet despite differences in our time zones. It was difficult to intuitively communicate with the teammates when we were attempting to make changes in our initial UX decisions.
+                                We overcame this problem by actively using communication Saas tool and holding weekly meeting for the design and the general team meeting with the developers.
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="Body-Contents">
+                        <div class="NextStep">
+                            <h3 class="orange">Next steps</h3>
+                            <h2>Making desktop changes</h2>
+                            <h4>After coding out the mobile platform product for the company, I was able to tranfer my design to a desktop platform. This was an attempt to increase the access of the service to the general audience. As a result, we were able to improve our old
+                                desktop platform with a newly thought out Ux methods. We were also able to make coherent designs across our mobile and desktop platforms.
+                            </h4>
+                        </div>
+                    </div>
+                </section>
+            </section>
+            <img class="Spread" src="/Images/SNIIP/High Fidelity Spread.png" alt="">
+            <section id="footer-section">
+                <div class="Body-Contents">
+                    <a class="ProjectLink" href="adler.html">
+                        <div id="NextProject">
+                            <div class="Next">
+                                <h2>Next</h2>
+                            </div>
+                            <img src="/Images/Adler/AdlerBar.png" alt="IntroBar">
+                        </div>
+                    </a>
                 </div>
             </section>
         </main>
