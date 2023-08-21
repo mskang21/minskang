@@ -1037,6 +1037,32 @@ footer {
   padding-right: 10px;
   color: white;
 }
-/* Cursor */
-
-
+/* Style tags for Adler */
+.SpaceFeed {
+  display: flex;
+  flex-direction: column;
+}
+.SpaceFeed img{
+  width: 100%;
+}
+.PlayMode {
+  display: flex;
+  flex-direction: column;
+}
+.PlayMode img {
+  width: 100%;
+}
+.Profile {
+  display: flex;
+  flex-direction: column;
+}
+.Profile img {
+  width: 100%;
+}
+.TwoGallery {
+  display: flex;
+  flex-direction: column;
+}
+.TwoGallery img {
+  width: 100%;
+}
