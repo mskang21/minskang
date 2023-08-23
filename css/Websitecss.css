@@ -150,7 +150,7 @@ body {
   justify-content: space-between;
 }
 #workCard-wave {
-  margin-top: 50px;
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -639,11 +639,11 @@ li a :active {
   height: 25%;
   padding-right:20px;
 }
-#summary h4 {
+#summary h4{
   font-family: ubuntu, sans-serif;
   text-align: left;
   padding-left: 15px;
-  border-left: 3px solid rgb(188, 21, 188);
+  border-left: 3px solid rgb(155, 21, 188);
 }
 #methods {
   margin-top: 40px;
@@ -711,7 +711,7 @@ li a :active {
   color: rgb(70, 70, 70);
   margin-top: 50px;
   padding-left: 15px;
-  border-left: 3px solid rgb(188, 21, 188);
+  border-left: 3px solid rgb(155, 21, 188);
 }
 #body-section h3 {
   align-self: flex-start;
