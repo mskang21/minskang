@@ -1025,9 +1025,11 @@ li a :active {
 footer {
   display: flex;
   flex-direction: row;
+  align-items: center;
   width: 100%;
   justify-content: space-between;
   background-color: black;
+  height: 40px;
 }
 .email {
   padding-left: 10px;

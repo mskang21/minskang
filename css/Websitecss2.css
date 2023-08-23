@@ -686,6 +686,7 @@ li a :active {
   align-content: center;
   align-items: center;
   width: 100%;
+  margin-bottom: 80px;
 }
 #NextProject img {
   width: 100%;
