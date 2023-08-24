@@ -603,7 +603,6 @@ li a :active {
   align-items: center;
 }
 .project-image img {
-  margin-top: 160px;
   width: 900px;
 }
 #tags {
@@ -752,8 +751,7 @@ li a :active {
   justify-content: center;
 }
 #footer-section {
-  margin-top: 50px;
-  margin-bottom: 80px;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -841,15 +839,8 @@ li a :active {
   padding-left: 30px;
 }
 .Next {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  border: 1px solid black; 
-  justify-content: center;
-  height: 50px;
-  padding: 10px;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding: 10px 20px 20px 10px;
+  margin-bottom: 0px;
 }
 .ProjectLink {
   text-decoration: none;
@@ -1029,14 +1020,14 @@ footer {
   width: 100%;
   justify-content: space-between;
   background-color: black;
-  height: 40px;
+  height: 80px;
 }
 .email {
-  padding-left: 10px;
+  padding-left: 40px;
   color: white;
 }
 .YearCreated {
-  padding-right: 10px;
+  padding-right: 40px;
   color: white;
 }
 /* Style tags for Adler */
