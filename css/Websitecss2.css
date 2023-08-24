@@ -1,7 +1,6 @@
 html {
   overflow-y: scroll;
   overflow-x: hidden;
-  animation-delay: 0ms;
 }
 ::-webkit-scrollbar {
   width: 5px;
@@ -24,7 +23,6 @@ html {
 body {
   margin: 0;
   width: 100%; 
-  -webkit-font-smoothing: antialiased;
   /* if you want to add some gaps between the edge of the screen, use padding instead */
   padding-left: 2px;
 }
@@ -193,6 +191,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding-left: 30px;
+  scroll-margin-block-end: 0;
 }
 #work-Content a {
   text-decoration: none;
