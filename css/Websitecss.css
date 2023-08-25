@@ -149,13 +149,13 @@ body {
   justify-content: space-between;
 }
 #workCard-wave {
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-#workCard-SNIIP {
-  margin-top: 50px;
+.workCard-SNIIP {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -239,7 +239,11 @@ body {
   flex-direction: column;
   align-items: center;
   padding-left: 30px;
-  scroll-margin-block-end: 0;
+  scroll-snap-type: y mandatory;
+}
+#work-Content > section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
 #work-Content a {
   text-decoration: none;
@@ -766,6 +770,27 @@ li a :active {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 120px;
+}
+#about-section img {
+  width: 35%;
+  border-radius: 15px;
+}
+#about-section h4 {
+  font-family: ubuntu, sans-serif;
+  color: rgb(70, 70, 70);
+  margin: 0 15px 15px 0;
+}
+.highlight {
+  color: black;
+  text-decoration: underline;
+}
+.AboutText{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 55%;
 }
 .grey {
   display: flex;
@@ -826,7 +851,6 @@ li a :active {
 }
 .diagramming3 img {
   width: 40%;
-  padding-left: 50px;
 } 
 .Spread {
   width: 100%;
@@ -939,16 +963,6 @@ li a :active {
 .Wireframing img {
   width: 100%;
 }
-.DesignSystem {
-  margin-top: 80px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.DesignSystem img {
-  width: 60%;
-}
-
 .Column {
   display: flex;
   flex-direction: column;
@@ -1016,7 +1030,12 @@ li a :active {
   width: 100%;
 }
 .UserTest {
-  width:100%
+  width:100%;
+  margin-top:60px;
+  margin-bottom: 60px;
+}
+.UserTest img {
+  border: 15px;
 }
 /* footer */
 footer {
