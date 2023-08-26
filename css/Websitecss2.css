@@ -484,19 +484,6 @@ li a :active {
   color: rgb(230, 230, 230);
   border-radius: 15px;
 }
-#summary {
-  display: flex;
-  margin-top: 40px;
-  width: 60%;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-#summary img {
-  width: 25%;
-  height: 25%;
-  padding-right:20px;
-}
 #summary h4 {
   font-family: ubuntu, sans-serif;
   text-align: left;
@@ -793,7 +780,6 @@ li a :active {
   text-decoration: none;
 }
 /* Style tags for Wave */
-
 .TopQuestions {
   margin-top:60px;
   margin-bottom: 60px;
@@ -900,18 +886,14 @@ li a :active {
   text-decoration: none;
 }
 .column img {
-  border-radius: 0;
+  border-radius: 25px;
+  width: 60%;
 }
 .BreakDown {
   margin-top:60px;
   margin-bottom: 60px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-}
-.Onboarding {
-  display: flex;
-  flex-direction: row;
   align-items: center;
 }
 .Onboarding img {
@@ -928,7 +910,7 @@ li a :active {
 }
 .Communication {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 .Communication img {
@@ -937,7 +919,7 @@ li a :active {
 }
 .Browsing {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 .Browsing img{

@@ -124,6 +124,9 @@ body {
 }
 
 @media only screen and (max-width:970px) {
+  #summary {
+    flex-wrap: wrap;
+  }
 /* for SNIIP */
   .FinalSolution {
     flex-wrap: wrap;
@@ -134,18 +137,33 @@ body {
   .diagramming3 {
     flex-wrap: wrap;
   }
+  .rowFormat {
+    flex-wrap: wrap;
+  }
 /* for Wave */
   .Connect {
     flex-wrap: wrap;
   }
+  .Connect img {
+    width:100%;
+  }
   .Onboarding {
     flex-wrap: wrap;
+  }
+  .Onboarding img {
+    width:100%;
   }
   .FollowUp {
     flex-wrap: wrap;
   }
+  .FollowUp img {
+    width: 100%;
+  }
   .LaunchProject {
     flex-wrap: wrap;
+  }
+  .LaunchProject img {
+    width: 100%;
   }
 }
 @media only screen and (max-width: 740px) {
@@ -774,8 +792,8 @@ li a :active {
   align-items: center;
 }
 #summary img {
-  width: 25%;
-  height: 25%;
+  width: 40%;
+  height: 40%;
   padding-right:20px;
 }
 #summary h4{
@@ -1119,39 +1137,39 @@ li a :active {
 }
 .Onboarding {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 .Onboarding img {
-  width: 60%;
-  padding-left: 40px;
+  width: 100%;
+  padding-left: 0 40px 0 40px;
 }
 .Connect {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 .Connect img {
-  padding-left: 40px;
-  width: 60%;
+  padding-left: 0 40px 0 40px;
+  width: 100%;
 }
 .FollowUp {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 .FollowUp img {
-  width: 60%;
-  padding-left: 40px;
+  width: 100%;
+  padding-left: 0 40px 0 40px;
 }
 .LaunchProject {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
 }
 .LaunchProject img{
-  width: 60%;
-  padding-left: 40px;
+  width: 100%;
+  padding-left: 0 40px 0 40px;
 }
 .Difficulties {
   margin-top: 80px;
