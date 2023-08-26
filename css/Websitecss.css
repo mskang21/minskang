@@ -98,6 +98,19 @@ body {
   opacity: 1;
   right: 0;
 }
+/* The responsive design */
+@media only screen and (max-width: 740px) {
+  .top-bar-right{
+    display: none;
+  } 
+  #Side-Nav {
+    display: none;
+    z-index: 3;
+    position: fixed;
+    transform: translate(25px ,290px);
+  }
+}
+
   /* The navigation bar is this code  */
 .top-bar ul {
   list-style-type: none;
