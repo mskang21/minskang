@@ -99,15 +99,106 @@ body {
   right: 0;
 }
 /* The responsive design */
+@media only screen and (max-width: 1120px) {
+  .intro-container img {
+    display: none;
+  }
+  .intro-container { 
+    position: relative;
+    text-align: left;
+    color: black;
+    margin-top: 150px;
+  }
+  #workBar {
+    margin-top: 250px;
+  }
+  .workContainer  h4 {
+    display: none;
+  }
+  .skillContainer h4 {
+    display: none;
+  }
+  .projectContainer h4 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:970px) {
+}
 @media only screen and (max-width: 740px) {
   .top-bar-right{
     display: none;
   } 
   #Side-Nav {
     display: none;
-    z-index: 3;
-    position: fixed;
-    transform: translate(25px ,290px);
+  }
+  #skills-Methods {
+    display: flex;
+    flex-direction: column;
+  }
+  #skills-Tools {
+    display: flex;
+    flex-direction: column;
+  }
+  #skills-Technical {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: wrap;
+  }
+  #First {
+    width: auto;
+    align-items: flex-start;
+    margin: 0px;
+  }
+  #Second {
+    width: auto;
+    align-items: flex-start;
+    margin: 0px;
+  }
+  #Third {
+    width: auto;
+    align-items: flex-start;
+    margin: 0px;
+  }
+  #ProjectsWorkCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+  }
+  .projects {
+    padding: 0px;
+  }
+  #work-Content {
+  }
+  #SNIIP {
+    padding: 0 0 0 20px;
+  }
+  #Wave {
+    padding: 0 0 0 20px;
+  }
+  #Adler {
+    padding: 0 0 0 20px;
+  }
+  .workCard {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  .fullwrap {
+    width: 250px
+  }
+}
+@media only screen and (max-width: 540px) {
+  .intro-contents {
+    width: 280px;
+  }
+  #workBar {
+    margin-top: 300px;
   }
 }
 
@@ -205,8 +296,8 @@ body {
   display: flex;
   align-items: flex-end;
   border: 2px solid black;
-  height: 450px;
-  width: 700px;
+  height: auto;
+  width: auto;
   border-top-right-radius: 26px;
     
   /* border-radius: 25px; */
@@ -251,7 +342,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-left: 30px;
   scroll-snap-type: y mandatory;
 }
 #work-Content > section {
@@ -262,13 +352,12 @@ body {
   text-decoration: none;
   color: black;
 }
-#Wave.workCard-contents {
+.workCard-contents {
   width: 254px;
-  height: 390px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  padding: 30px;
-  padding-right: 150px;
+  padding: 0 0 30px 30px;
   color: black;
   text-decoration: none;
   align-items: flex-start;
@@ -276,36 +365,6 @@ body {
   /* background-color: rgba(201, 170, 231, 0.837); */
   /* border-bottom-left-radius: 25px;
   border-top-left-radius: 25px; */
-}
-#SNIIP.workCard-contents {
-  width: 254px;
-  height: 390px;
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  padding-right: 150px;
-  color: black;
-  text-decoration: none;
-  align-items: flex-start;
-  justify-content: flex-end;
-  /* background-color: rgba(126, 185, 219, 0.837); */
-  /* border-bottom-left-radius: 25px;
-  border-top-left-radius: 25px; */
-}
-#Adler.workCard-contents {
-  width: 254px;
-  height: 390px;
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  padding-right: 150px;
-  color: black;
-  text-decoration: none;
-  align-items: flex-start;
-  justify-content: flex-end;
-    /* background-color: rgba(231, 170, 190, 0.837); */
-    /* border-bottom-left-radius: 25px;
-    border-top-left-radius: 25px; */
 }
 .workCard-duration {
   display: block;
@@ -409,6 +468,10 @@ body {
   align-items: center;
   margin-right: 10px;
 }
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
 .row h4 {
   text-align: center;
   border: 2px solid black;
@@ -467,8 +530,8 @@ body {
   align-items: center;
   justify-content: space-evenly;
   border: 2px solid black;
-  height: 349px;
-  width: 580px;
+  height: auto;
+  width: auto;
   border-top-right-radius: 26px;
   margin-bottom: 40px;
     
