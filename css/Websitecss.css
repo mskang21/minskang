@@ -126,12 +126,15 @@ body {
 @media only screen and (max-width:970px) {
 }
 @media only screen and (max-width: 740px) {
+  /* navbar */
   .top-bar-right{
     display: none;
   } 
+  /* side nav */
   #Side-Nav {
     display: none;
   }
+  /* skill section */
   #skills-Methods {
     display: flex;
     flex-direction: column;
@@ -148,6 +151,40 @@ body {
     display: flex;
     flex-direction: wrap;
   }
+  /* project section */
+  #ProjectsWorkCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+  }
+  .projects {
+    padding: 0px;
+  }
+  .project-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 348px;
+    border-top: 2px solid black;
+    border-top-right-radius: 26px;
+  }
+  #BubbleGif {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0 0px;
+  }
+  #WebsiteImage {
+    border-radius: 0 0 0 0px;
+  }
+  #FaceGif {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0 0px;
+  }
+  /* works section */
   #First {
     width: auto;
     align-items: flex-start;
@@ -162,18 +199,6 @@ body {
     width: auto;
     align-items: flex-start;
     margin: 0px;
-  }
-  #ProjectsWorkCard {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: auto;
-    height: auto;
-  }
-  .projects {
-    padding: 0px;
-  }
-  #work-Content {
   }
   #SNIIP {
     padding: 0 0 0 20px;
@@ -192,6 +217,14 @@ body {
   .fullwrap {
     width: 250px
   }
+  /* SNIIP Page */
+  .project-image {
+    display: none;
+  }
+  .projectTITLE {
+    display: flex;
+  }
+
 }
 @media only screen and (max-width: 540px) {
   .intro-contents {
@@ -201,7 +234,10 @@ body {
     margin-top: 300px;
   }
 }
-
+.projectTITLE {
+  display: none;
+  padding: 10px 20px 20px 10px;
+}
   /* The navigation bar is this code  */
 .top-bar ul {
   list-style-type: none;
@@ -525,9 +561,12 @@ body {
   margin-top: 40px;
   width: 60%;
 }
+.projectDes {
+  padding-left: 30px;
+}
 #ProjectsWorkCard {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-evenly;
   border: 2px solid black;
   height: auto;
@@ -579,23 +618,22 @@ body {
   justify-content: center;
   width: 370px;
   height: 348px;
-  margin-right: 40px;
-  border-right: 2px solid black;
-}
-#Second.project-contents {
-  background-color: rgb(149, 149, 249);
+  border-left: 2px solid black;
 }
 #BubbleGif {
   width: 100%;
   height: 100%;
+  border-radius: 0 26px 0 0;
 }
 #WebsiteImage {
-  width: 80%;
+  width: 100%;
   height: 100%;
+  border-radius: 0 26px 0 0;
 }
 #FaceGif {
   width: 100%;
   height: 100%;
+  border-radius: 0 26px 0 0;
 }
 #projects p {
   font-family: ubuntu;
