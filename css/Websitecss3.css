@@ -1,3 +1,176 @@
+@media only screen and (max-width: 1120px) {
+  .intro-container img {
+    display: none;
+  }
+  .intro-container { 
+    position: relative;
+    text-align: left;
+    color: black;
+    margin-top: 150px;
+  }
+  #workBar {
+    margin-top: 250px;
+  }
+  .workContainer  h4 {
+    display: none;
+  }
+  .skillContainer h4 {
+    display: none;
+  }
+  .projectContainer h4 {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:970px) {
+  #summary {
+    flex-wrap: wrap;
+  }
+/* for SNIIP */
+  .FinalSolution {
+    flex-wrap: wrap;
+  }
+  .diagramming {
+    flex-wrap: wrap;
+  }
+  .diagramming3 {
+    flex-wrap: wrap;
+  }
+  .rowFormat {
+    flex-wrap: wrap;
+  }
+/* for Wave */
+  .Connect {
+    flex-wrap: wrap;
+  }
+  .Connect img {
+    width:100%;
+  }
+  .Onboarding {
+    flex-wrap: wrap;
+  }
+  .Onboarding img {
+    width:100%;
+  }
+  .FollowUp {
+    flex-wrap: wrap;
+  }
+  .FollowUp img {
+    width: 100%;
+  }
+  .LaunchProject {
+    flex-wrap: wrap;
+  }
+  .LaunchProject img {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 740px) {
+  /* navbar */
+  .top-bar-right{
+    display: none;
+  } 
+  /* side nav */
+  #Side-Nav {
+    display: none;
+  }
+  /* skill section */
+  #skills-Methods {
+    display: flex;
+    flex-direction: column;
+  }
+  #skills-Tools {
+    display: flex;
+    flex-direction: column;
+  }
+  #skills-Technical {
+    display: flex;
+    flex-direction: column;
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: wrap;
+  }
+  /* project section */
+  #ProjectsWorkCard {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    height: auto;
+  }
+  .projects {
+    padding: 0px;
+  }
+  .project-contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 370px;
+    height: 348px;
+    border-top: 2px solid black;
+    border-top-right-radius: 26px;
+  }
+  #BubbleGif {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0 0px;
+  }
+  #WebsiteImage {
+    border-radius: 0 0 0 0px;
+  }
+  #FaceGif {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 0 0px;
+  }
+  /* works section */
+  #First {
+    width: auto;
+    align-items: flex-start;
+    margin: 0px;
+  }
+  #Second {
+    width: auto;
+    align-items: flex-start;
+    margin: 0px;
+  }
+  #Third {
+    width: auto;
+    align-items: flex-start;
+    margin: 0px;
+  }
+  #SNIIP {
+    padding: 0 0 0 20px;
+  }
+  #Wave {
+    padding: 0 0 0 20px;
+  }
+  #Adler {
+    padding: 0 0 0 20px;
+  }
+  .workCard {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+  }
+  .fullwrap {
+    width: 250px
+  }
+  /* SNIIP Page */
+  .project-image img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .intro-contents {
+    width: 280px;
+  }
+  #workBar {
+    margin-top: 300px;
+  }
+}
+
 html {
     overflow-y: scroll;
     overflow-x: hidden;
@@ -460,9 +633,6 @@ html {
     align-items: center;
     margin-bottom: 120px;
   }
-  .project-image img {
-    width: 900px;
-  }
   #tags {
     display: flex;
     margin-top: 40px;
@@ -692,7 +862,7 @@ html {
     justify-content: center;
     border: 2px solid black;
     height: auto;
-    width: auto;
+    width: 850px;
     border-top-right-radius: 26px;
     margin-top: 120px;
       
@@ -782,6 +952,22 @@ html {
         0% 100%
       );
   }
+  .project-image {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .project-image h2 {
+    color: black;
+    margin: 0px;
+    padding: 10px 20px 10px 20px;
+    font-weight: 700;
+  }
+  .project-image img {
+    width: 40%;
+    padding-right: 20px;
+  }
   #NextProject {
     display: flex;
     flex-direction: row;
@@ -790,12 +976,32 @@ html {
     width: 100%;
     margin-bottom: 80px;
   }
-  #NextProject img {
-    width: 100%;
-    padding-left: 30px;
-  }
+#NextProject img {
+  width: 60%;
+  padding-right: 20px;
+}
+#NextProject h2 {
+  margin: 0px;
+  padding: 10px 20px 10px 20px;
+}
+#NextProject2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#NextProject2 img {
+  width: 60%;
+  padding-right: 20px;
+}
+#NextProject2 h2 {
+  margin: 0px;
+  padding: 10px 20px 10px 20px;
+}
   .Next {
-    padding: 10px 20px 20px 10px;
+    padding: 10px 20px 10px 20px;
     margin-bottom: 0px;
   }
   .ProjectLink {
