@@ -259,8 +259,8 @@ body {
     width: 250px
   }
   /* SNIIP Page */
-  #NextWorkCard {
-    width: 80%;
+  #NextWorkCardBottom img {
+    display: none;
   }
   .project-image img {
     display: none;
@@ -596,6 +596,9 @@ body {
   align-items: center;
   margin-top: 40px;
   width: 60%;
+}
+#projects a {
+  text-decoration: none;
 }
 .projectDes {
   padding-left: 30px;
