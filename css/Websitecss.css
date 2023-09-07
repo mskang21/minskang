@@ -330,8 +330,8 @@ body {
   flex-direction: column;
   align-items: center;
 }
-.workCard-SNIIP {
-  margin-top: 30px;
+#workCard-SNIIP {
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
