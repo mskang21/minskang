@@ -797,7 +797,7 @@ li a :active {
 }
 #summary {
   display: flex;
-  margin-top: 20px;
+  margin: 0px;
   width: 60%;
   flex-direction: row;
   justify-content: center;
