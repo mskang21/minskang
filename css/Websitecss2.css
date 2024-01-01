@@ -508,6 +508,9 @@ li a :active {
 .subtitle h2 {
   margin: 0px;
 }
+#summary.WAVE {
+  margin-top: 30px;
+}
 #summary h4 {
   font-family: ubuntu, sans-serif;
   text-align: left;

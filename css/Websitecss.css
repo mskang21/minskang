@@ -795,6 +795,10 @@ li a :active {
   color: rgb(230, 230, 230);
   border-radius: 15px;
 }
+.BigWord {
+  font-size: xx-large;
+  font-family: noto serif;
+}
 #summary {
   display: flex;
   margin: 0px;
