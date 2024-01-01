@@ -493,6 +493,21 @@ li a :active {
   color: rgb(230, 230, 230);
   border-radius: 15px;
 }
+#slogan {
+  text-align: left;
+  color:black;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+#slogan h1 {
+  margin: 0px;
+}
+#slogan h2 {
+  margin: 0px;
+}
+.subtitle h2 {
+  margin: 0px;
+}
 #summary h4 {
   font-family: ubuntu, sans-serif;
   text-align: left;
