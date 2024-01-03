@@ -448,6 +448,11 @@ body {
 .workCard-role {
   font-family: 'Ubuntu', sans-serif;
 }
+.workCard-des {
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+
+}
 .workCard-title{
   display: block;
   align-items: center;
