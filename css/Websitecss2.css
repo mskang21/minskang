@@ -255,6 +255,7 @@ body {
 }
 .workCard-des {
   font-family: 'Ubuntu', sans-serif;
+  padding-right: 20px;
 }
 .workCard-title{
   display: block;
