@@ -26,6 +26,7 @@ body {
   /* if you want to add some gaps between the edge of the screen, use padding instead */
   padding-left: 2px;
   overflow: hidden;
+  /* background-image: url(/images2/background_image.png); */
 }
 #intro-section {
   display: flex;
@@ -429,11 +430,12 @@ body {
   height: auto;
   display: flex;
   flex-direction: column;
-  padding: 0 0 30px 30px;
+  padding: 187px 0 30px 30px;
   color: black;
   text-decoration: none;
   align-items: flex-start;
   justify-content: flex-end;
+  background-color: white;
   /* background-color: rgba(201, 170, 231, 0.837); */
   /* border-bottom-left-radius: 25px;
   border-top-left-radius: 25px; */
