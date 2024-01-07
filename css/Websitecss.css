@@ -9,13 +9,11 @@ html {
 ::-webkit-scrollbar-track { 
   border-radius: 5px;
 }
- 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: black; 
   border-radius: 10px;
 }
-
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: grey; 
@@ -27,6 +25,9 @@ body {
   padding-left: 2px;
   overflow: hidden;
   /* background-image: url(/images2/background_image.png); */
+}
+#artCaption {
+  margin-top: 70px;
 }
 #intro-section {
   display: flex;
@@ -1256,15 +1257,21 @@ footer {
   align-items: center;
   margin-left: 120px;
   margin-right: 120px;
-  margin-top: 40px;
 }
 #Column {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 50%;
+  width: 70%;
 }
 #Column img {
   width: 70%;
-  margin-top: 50px;
+  margin-top: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition:transform 0.25s ease;
+}
+
+#Column img:hover {
+  -webkit-transform:scale(1.5); 
+  transform:scale(1.5);
 }
